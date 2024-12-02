@@ -1,0 +1,4 @@
+[ 12%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[ 62%] Built target simple_publisher
+[ 62%] Built target simple_subscriber
+[ 87%] Built target simple_parameter

@@ -1,0 +1,11 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[ 75%] Built target simple_subscriber
+[ 75%] Built target simple_parameter
+[ 87%] Built target simple_publisher
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_cpp_examples/simple_turtle_kinematics.hpp: No such file or directory
+    1 | #include [01;31m[K"bumperbot_cpp_examples/simple_turtle_kinematics.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple_turtlesim_kinematics.dir/build.make:76: CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/simple_turtlesim_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,138 @@
+[0.016s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_description
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.110s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.240s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.469s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.510s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.515s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.523s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.590s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.593s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.653s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.675s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.722s] -- Looking for pthread.h
+[0.777s] -- Looking for pthread.h - found
+[0.777s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.832s] -- Found Threads: TRUE  
+[0.884s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.886s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.895s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.896s] -- Checking for module 'bullet>=2.82'
+[0.904s] --   Found bullet, version 3.05
+[0.977s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.008s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.027s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.057s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.070s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.076s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.082s] -- Searching for dependencies of ignition-math6
+[1.083s] -- Looking for OGRE...
+[1.083s] -- OGRE_PREFIX_WATCH changed.
+[1.087s] -- Checking for module 'OGRE'
+[1.096s] --   Found OGRE, version 1.9.0
+[1.115s] -- Found Ogre Ghadamon (1.9.0)
+[1.122s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.131s] -- Looking for OGRE_Paging...
+[1.137s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.137s] -- Looking for OGRE_Terrain...
+[1.143s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.143s] -- Looking for OGRE_Property...
+[1.149s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.149s] -- Looking for OGRE_RTShaderSystem...
+[1.155s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.155s] -- Looking for OGRE_Volume...
+[1.160s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.160s] -- Looking for OGRE_Overlay...
+[1.166s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.274s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.276s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.277s] -- Searching for dependencies of ignition-transport8
+[1.291s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.300s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.303s] -- Checking for module 'libzmq >= 4'
+[1.310s] --   Found libzmq , version 4.3.4
+[1.330s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.333s] -- Checking for module 'uuid'
+[1.340s] --   Found uuid, version 2.37.2
+[1.357s] -- Found UUID: TRUE  
+[1.360s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.360s] -- Searching for dependencies of ignition-msgs5
+[1.375s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.378s] -- Checking for module 'tinyxml2'
+[1.385s] --   Found tinyxml2, version 9.0.0
+[1.403s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.405s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.405s] -- Searching for dependencies of ignition-common3
+[1.406s] -- Looking for dlfcn.h - found
+[1.406s] -- Looking for libdl - found
+[1.407s] -- Found DL: TRUE  
+[1.416s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.416s] -- Searching for <ignition-common3> component [graphics]
+[1.419s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.419s] -- Searching for dependencies of ignition-common3-graphics
+[1.419s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.422s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.422s] -- Searching for dependencies of ignition-fuel_tools4
+[1.470s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.477s] -- Checking for module 'jsoncpp'
+[1.484s] --   Found jsoncpp, version 1.9.5
+[1.501s] -- Found JSONCPP: TRUE  
+[1.505s] -- Checking for module 'libzip'
+[1.512s] --   Found libzip, version 1.7.3
+[1.531s] -- Found ZIP: TRUE  
+[1.532s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.532s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.532s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.536s] -- Gazebo version: 11.10
+[1.536s] -- Checking for module 'tbb'
+[1.545s] --   Found tbb, version 2021.5.0
+[1.567s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.643s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.644s] -- Added test 'lint_cmake' to check CMake code style
+[1.645s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.646s] -- Added test 'xmllint' to check XML markup files
+[1.647s] -- Configuring done
+[1.651s] -- Generating done
+[1.653s] -- Build files have been written to: /home/bfg2h/bumperbot_ws/build/bumperbot_description
+[1.662s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_description
+[1.664s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[1.695s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[1.722s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_description
+[1.728s] -- Install configuration: ""
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[1.728s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[1.729s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[1.731s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_description

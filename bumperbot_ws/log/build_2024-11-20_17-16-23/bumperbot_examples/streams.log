@@ -1,0 +1,21 @@
+[0.026s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_examples': _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_examples -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_examples
+[0.051s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.052s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.052s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.052s]   CMake did not find one.
+[0.052s] 
+[0.052s]   Could not find a package configuration file provided by "catkin" with any
+[0.052s]   of the following names:
+[0.052s] 
+[0.052s]     catkinConfig.cmake
+[0.052s]     catkin-config.cmake
+[0.052s] 
+[0.052s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.053s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.053s]   provides a separate development package or SDK, be sure it has been
+[0.053s]   installed.
+[0.053s] 
+[0.053s] [0m
+[0.053s] -- Configuring incomplete, errors occurred!
+[0.053s] See also "/home/bfg2h/bumperbot_ws/build/bumperbot_examples/CMakeFiles/CMakeOutput.log".
+[0.378s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_examples' returned '1': _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_examples -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_examples

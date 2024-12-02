@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/bfg2h/ros2_ws/build/my_py_pkg",
+        "/home/bfg2h/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/bfg2h/udemy_ws/install/self_driving_car_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/bfg2h/ros2_ws/build/my_py_pkg",
+        "/home/bfg2h/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/bfg2h/udemy_ws/install/self_driving_car_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "typeindex": "cpp",
+        "typeinfo": "cpp"
+    }
+}
