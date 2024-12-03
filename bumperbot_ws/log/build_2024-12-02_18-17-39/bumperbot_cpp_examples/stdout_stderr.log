@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[ 75%] Built target simple_publisher
+[ 75%] Built target simple_subscriber
+[ 75%] Built target simple_parameter
+[ 87%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp:4[m[K,
+                 from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:1[m[K:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:[m[K In member function ‘[01m[Kvoid SimpleTurtleKinematics::turtle2PoseCallback(const Pose&)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:35:77:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [42][m[K’ and ‘[01m[Kconst char [5][m[K’ to binary ‘[01m[Koperator<<[m[K’
+   35 |     RCLCPP_INFO(get_logger(), [32m[K"\n Translation Vector turtle1 -> turtle2 \n"[m[K [01;31m[K<<[m[K
+      |                               [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K
+      |                               [32m[K|[m[K
+      |                               [32m[Kconst char [42][m[K
+   36 |      [34m[K"Tx: "[m[K << Tx << "\n"<<
+      |      [34m[K~~~~~~[m[K                                                                  
+      |      [34m[K|[m[K
+      |      [34m[Kconst char [5][m[K
+gmake[2]: *** [CMakeFiles/simple_turtlesim_kinematics.dir/build.make:76: CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/simple_turtlesim_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
