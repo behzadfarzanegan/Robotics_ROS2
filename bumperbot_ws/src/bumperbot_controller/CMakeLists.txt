@@ -34,7 +34,9 @@ install(
 
 install(PROGRAMS
   ${PROJECT_NAME}/simple_controller.py
+  ${PROJECT_NAME}/simple_controller2.py
   DESTINATION lib/${PROJECT_NAME}
 )
+
 
 ament_package()
