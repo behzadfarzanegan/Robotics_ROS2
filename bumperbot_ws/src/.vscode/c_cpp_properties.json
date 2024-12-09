@@ -1,24 +1,26 @@
 {
-    "configurations": [
-        {
-            "browse": {
-                "databaseFilename": "${default}",
-                "limitSymbolsToIncludedHeaders": false
-            },
-            "includePath": [
-                "/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
-                "/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
-                "/opt/ros/humble/include/**",
-                "/home/bfg2h/bumperbot_ws/src/bumperbot_description/include/**",
-                "/usr/include/**",
-                "/opt/ros/humble/include/rclcpp"
-            ],
-            "name": "ROS",
-            "intelliSenseMode": "gcc-x64",
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "gnu11",
-            "cppStandard": "c++14"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/include/**",
+        "/home/bfg2h/bumperbot_ws/install/bumperbot_controller/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/bfg2h/bumperbot_ws/src/bumperbot_controller/include/**",
+        "/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
 }
