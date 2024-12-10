@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
-[ 75%] Built target simple_parameter
-[ 75%] Built target simple_publisher
-[ 75%] Built target simple_subscriber
-[ 87%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m

@@ -3,18 +3,28 @@
 <package format="3">
   <name>bumperbot_cpp_examples</name>
   <version>0.0.0</version>
-  <description>ROS 2 Code Examples</description>
-  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
+  <description>ROS 2 Code Examples for demonstrating basic and advanced features of ROS 2 in C++.</description>
+  
+  <!-- Maintainer Information -->
+  <maintainer email="b.farzanegan@gmail.com">Behzad Farzanegan</maintainer>
+  
+  <!-- License -->
   <license>Apache 2.0</license>
 
+  <!-- Dependencies -->
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>rcl_interfaces</depend>
+  <depend>turtlesim</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
 
+  <!-- Test Dependencies -->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
+  <!-- Export -->
   <export>
     <build_type>ament_cmake</build_type>
   </export>
