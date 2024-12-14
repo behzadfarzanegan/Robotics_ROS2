@@ -4,7 +4,7 @@
   <name>bumperbot_py_examples</name>
   <version>0.0.0</version>
   <description>ROS 2 Code Examples</description>
-  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
+  <maintainer email="b.farzanegan@gmail.com">Behzad Farzanegan</maintainer>
   <license>Apache 2.0</license>
 
   <depend>rclpy</depend>
@@ -13,6 +13,7 @@
   <depend>turtlesim</depend>
   <depend>tf2_ros</depend>
   <depend>geometry_msgs</depend>
+  <exec_depend>bumperbot_msgs</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
