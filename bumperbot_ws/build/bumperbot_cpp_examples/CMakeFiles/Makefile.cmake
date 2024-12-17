@@ -855,4 +855,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/simple_turtlesim_kinematics.dir/DependInfo.cmake"
   "CMakeFiles/simple_tf_kinematics.dir/DependInfo.cmake"
   "CMakeFiles/simple_service_server.dir/DependInfo.cmake"
+  "CMakeFiles/simple_service_client.dir/DependInfo.cmake"
   )

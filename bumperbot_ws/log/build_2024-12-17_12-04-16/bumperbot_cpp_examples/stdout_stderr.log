@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[ 85%] Built target simple_turtlesim_kinematics
+[ 85%] Built target simple_subscriber
+[ 85%] Built target simple_service_server
+[ 85%] Built target simple_tf_kinematics
+[ 85%] Built target simple_publisher
+[ 85%] Built target simple_parameter
+[ 92%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_client.cpp:[m[K In constructor ‘[01m[KSimpleServiceClient::SimpleServiceClient(int, int)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_client.cpp:11:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   11 |         while (!client_->wait_for_service([01;31m[K1s[m[K)){
+      |                                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:76: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/simple_service_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

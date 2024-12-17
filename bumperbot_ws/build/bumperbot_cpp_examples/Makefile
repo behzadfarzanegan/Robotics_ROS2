@@ -275,6 +275,19 @@ simple_service_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/build
 .PHONY : simple_service_server/fast
 
+#=============================================================================
+# Target rules for targets named simple_service_client
+
+# Build rule for target.
+simple_service_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_client
+.PHONY : simple_service_client
+
+# fast build rule for target.
+simple_service_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/build
+.PHONY : simple_service_client/fast
+
 src/simple_parameter.o: src/simple_parameter.cpp.o
 .PHONY : src/simple_parameter.o
 
@@ -322,6 +335,30 @@ src/simple_publisher.s: src/simple_publisher.cpp.s
 src/simple_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher.dir/build.make CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.s
 .PHONY : src/simple_publisher.cpp.s
+
+src/simple_service_client.o: src/simple_service_client.cpp.o
+.PHONY : src/simple_service_client.o
+
+# target to build an object file
+src/simple_service_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o
+.PHONY : src/simple_service_client.cpp.o
+
+src/simple_service_client.i: src/simple_service_client.cpp.i
+.PHONY : src/simple_service_client.i
+
+# target to preprocess a source file
+src/simple_service_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.i
+.PHONY : src/simple_service_client.cpp.i
+
+src/simple_service_client.s: src/simple_service_client.cpp.s
+.PHONY : src/simple_service_client.s
+
+# target to generate assembly for a file
+src/simple_service_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.s
+.PHONY : src/simple_service_client.cpp.s
 
 src/simple_service_server.o: src/simple_service_server.cpp.o
 .PHONY : src/simple_service_server.o
@@ -436,6 +473,7 @@ help:
 	@echo "... uninstall"
 	@echo "... simple_parameter"
 	@echo "... simple_publisher"
+	@echo "... simple_service_client"
 	@echo "... simple_service_server"
 	@echo "... simple_subscriber"
 	@echo "... simple_tf_kinematics"
@@ -446,6 +484,9 @@ help:
 	@echo "... src/simple_publisher.o"
 	@echo "... src/simple_publisher.i"
 	@echo "... src/simple_publisher.s"
+	@echo "... src/simple_service_client.o"
+	@echo "... src/simple_service_client.i"
+	@echo "... src/simple_service_client.s"
 	@echo "... src/simple_service_server.o"
 	@echo "... src/simple_service_server.i"
 	@echo "... src/simple_service_server.s"

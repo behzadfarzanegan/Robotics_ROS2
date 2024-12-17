@@ -38,6 +38,9 @@ add_executable(simple_service_server src/simple_service_server.cpp)
 target_include_directories(simple_service_server PUBLIC include)
 ament_target_dependencies(simple_service_server rclcpp bumperbot_msgs)
 
+add_executable(simple_service_client src/simple_service_client.cpp)
+target_include_directories(simple_service_client PUBLIC include)
+ament_target_dependencies(simple_service_client rclcpp bumperbot_msgs)
 
 install(
   DIRECTORY include
@@ -51,6 +54,7 @@ install(TARGETS
   simple_turtlesim_kinematics
   simple_tf_kinematics
   simple_service_server
+  simple_service_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

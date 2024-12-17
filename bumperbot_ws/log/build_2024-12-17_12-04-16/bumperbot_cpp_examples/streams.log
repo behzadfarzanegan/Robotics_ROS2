@@ -1,0 +1,17 @@
+[0.014s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[0.056s] [ 85%] Built target simple_turtlesim_kinematics
+[0.056s] [ 85%] Built target simple_subscriber
+[0.056s] [ 85%] Built target simple_service_server
+[0.056s] [ 85%] Built target simple_tf_kinematics
+[0.056s] [ 85%] Built target simple_publisher
+[0.056s] [ 85%] Built target simple_parameter
+[0.058s] [ 92%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[1.988s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_client.cpp:[m[K In constructor ‘[01m[KSimpleServiceClient::SimpleServiceClient(int, int)[m[K’:
+[1.988s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_client.cpp:11:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[1.988s]    11 |         while (!client_->wait_for_service([01;31m[K1s[m[K)){
+[1.989s]       |                                           [01;31m[K^~[m[K
+[2.548s] gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:76: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+[2.548s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/simple_service_client.dir/all] Error 2
+[2.548s] gmake: *** [Makefile:146: all] Error 2
+[2.551s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
