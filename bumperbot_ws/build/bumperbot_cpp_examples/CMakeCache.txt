@@ -272,7 +272,7 @@ SITE:STRING=rsdfmdnf3.managed.mst.edu
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -339,6 +339,9 @@ bumperbot_cpp_examples_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 bumperbot_cpp_examples_SOURCE_DIR:STATIC=/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples
+
+//The directory containing a CMake configuration file for bumperbot_msgs.
+bumperbot_msgs_DIR:PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/humble/share/class_loader/cmake

@@ -5,6 +5,7 @@
 /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
 /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
 /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
 /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
 /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
 /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
