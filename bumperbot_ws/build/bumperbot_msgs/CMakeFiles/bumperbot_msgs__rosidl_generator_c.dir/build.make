@@ -83,6 +83,7 @@ rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/rosi
 rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h: rosidl_adapter/bumperbot_msgs/srv/AddTwoInts.idl
+rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h: rosidl_adapter/bumperbot_msgs/srv/GetTransform.idl
 rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -155,8 +156,23 @@ rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__struct.h: rosidl_gene
 rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.h: rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
 
+rosidl_generator_c/bumperbot_msgs/srv/get_transform.h: rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bumperbot_msgs/srv/get_transform.h
+
+rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.h: rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.h
+
+rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__struct.h: rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__struct.h
+
+rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.h: rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.h
+
 rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c: rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c
+
+rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c: rosidl_generator_c/bumperbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c
 
 CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o: rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c
@@ -172,14 +188,30 @@ CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c -o CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.s
 
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o: rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o -MF CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o.d -o CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o -c /home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c
+
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c > CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.i
+
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c -o CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.s
+
 # Object files for target bumperbot_msgs__rosidl_generator_c
 bumperbot_msgs__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o"
+"CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o" \
+"CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o"
 
 # External object files for target bumperbot_msgs__rosidl_generator_c
 bumperbot_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libbumperbot_msgs__rosidl_generator_c.so: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o
+libbumperbot_msgs__rosidl_generator_c.so: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o
 libbumperbot_msgs__rosidl_generator_c.so: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/build.make
 libbumperbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 libbumperbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
@@ -187,7 +219,7 @@ libbumperbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfa
 libbumperbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbumperbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libbumperbot_msgs__rosidl_generator_c.so: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libbumperbot_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libbumperbot_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,6 +235,11 @@ CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bum
 CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.h
 CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__struct.h
 CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.h
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__struct.h
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.h
+CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/bumperbot_msgs/srv/get_transform.h
 	cd /home/bfg2h/bumperbot_ws/build/bumperbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bfg2h/bumperbot_ws/src/bumperbot_msgs /home/bfg2h/bumperbot_ws/src/bumperbot_msgs /home/bfg2h/bumperbot_ws/build/bumperbot_msgs /home/bfg2h/bumperbot_ws/build/bumperbot_msgs /home/bfg2h/bumperbot_ws/build/bumperbot_msgs/CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/depend
 

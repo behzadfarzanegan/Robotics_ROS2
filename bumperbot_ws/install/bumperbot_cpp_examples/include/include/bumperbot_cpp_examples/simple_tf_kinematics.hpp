@@ -4,53 +4,38 @@
 #include <rclcpp/rclcpp.hpp>
 #include <tf2_ros/static_transform_broadcaster.h>
 #include <tf2_ros/transform_broadcaster.h>
+#include <tf2_ros/transform_listener.h>
+#include <tf2_ros/buffer.h>
 #include <geometry_msgs/msg/transform_stamped.hpp>
+#include <bumperbot_msgs/srv/get_transform.hpp>
+
 #include <memory>
 
-/**
- * @brief SimpleTfKinematics is a ROS 2 node that broadcasts static and dynamic transforms.
- */
 class SimpleTfKinematics : public rclcpp::Node
 {
 public:
-    /**
-     * @brief Construct a new SimpleTfKinematics object with a custom name.
-     * 
-     * @param name The name of the node.
-     */
-    explicit SimpleTfKinematics(const std::string &name);
-
-    /**
-     * @brief Construct a new SimpleTfKinematics object with the default name.
-     */
-    SimpleTfKinematics();
+    SimpleTfKinematics(const std::string &name);
 
 private:
-    /**
-     * @brief Timer callback to broadcast dynamic transforms periodically.
-     */
     void timerCallback();
+    void getTransformCallback(
+        const std::shared_ptr<bumperbot_msgs::srv::GetTransform::Request> req,
+        const std::shared_ptr<bumperbot_msgs::srv::GetTransform::Response> res);
 
-    /// Static transform broadcaster to publish static transforms.
     std::shared_ptr<tf2_ros::StaticTransformBroadcaster> static_tf_broadcaster_;
-
-    /// Dynamic transform broadcaster to publish dynamic transforms.
     std::shared_ptr<tf2_ros::TransformBroadcaster> dynamic_tf_broadcaster_;
 
-    /// TransformStamped message for static transform.
     geometry_msgs::msg::TransformStamped static_transform_stamped_;
-
-    /// TransformStamped message for dynamic transform.
     geometry_msgs::msg::TransformStamped dynamic_transform_stamped_;
 
-    /// Last x position for dynamic transform.
-    double last_x_ = 0;
-
-    /// Increment value for dynamic transform's x position.
-    double increment_x_ = 0.01;
-
     rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Service<bumperbot_msgs::srv::GetTransform>::SharedPtr get_transform_srv_;
 
+    std::shared_ptr<tf2_ros::Buffer> tf_buffer_;
+    std::unique_ptr<tf2_ros::TransformListener> tf_listener_; // Use unique_ptr for TransformListener
+
+    double last_x_ = 0.0;
+    double increment_x_ = 0.01;
 };
 
-#endif  // SIMPLE_KINEMATICS_HPP
+#endif // SIMPLE_KINEMATICS_HPP

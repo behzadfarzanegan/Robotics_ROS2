@@ -1,0 +1,123 @@
+[0.020s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/arduinobot_ws/install/arduinobot_description:/home/bfg2h/arduinobot_ws/install/arduinobot_cpp_examples:/home/bfg2h/arduinobot_ws/install/arduinobot_controller:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.132s] -- The CXX compiler identification is GNU 11.4.0
+[0.139s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.278s] -- Detecting CXX compile features
+[0.279s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.514s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.558s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.563s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.571s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.684s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.749s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.771s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.815s] -- Looking for pthread.h
+[0.859s] -- Looking for pthread.h - found
+[0.859s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.919s] -- Found Threads: TRUE  
+[0.978s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.022s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.108s] -- Found bumperbot_msgs: 0.0.0 (/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[1.173s] -- Configuring done
+[1.193s] -- Generating done
+[1.194s] -- Build files have been written to: /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples
+[1.203s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/arduinobot_ws/install/arduinobot_description:/home/bfg2h/arduinobot_ws/install/arduinobot_cpp_examples:/home/bfg2h/arduinobot_ws/install/arduinobot_controller:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples
+[1.204s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/arduinobot_ws/install/arduinobot_description:/home/bfg2h/arduinobot_ws/install/arduinobot_cpp_examples:/home/bfg2h/arduinobot_ws/install/arduinobot_controller:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[1.239s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[1.239s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[1.239s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[1.239s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[1.239s] [ 21%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[1.239s] [ 21%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[1.239s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[3.819s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:77:[m[K [01;31m[Kerror: [m[K‘[01m[KGetTransform[m[K’ is not a member of ‘[01m[Kbumperbot_msgs[m[K’; did you mean ‘[01m[Kbumperbot_msgs::srv::GetTransform[m[K’?
+[3.819s]    64 | bool SimpleTfKinematics::getTransform(const std::shared_ptr<bumperbot_msgs::[01;31m[KGetTransform[m[K::Request> req,
+[3.819s]       |                                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[3.819s] In file included from [01m[K/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp:7[m[K,
+[3.819s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:10[m[K,
+[3.819s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[3.819s] [01m[K/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp:283:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbumperbot_msgs::srv::GetTransform[m[K’ declared here
+[3.819s]   283 | struct [01;36m[KGetTransform[m[K
+[3.819s]       |        [01;36m[K^~~~~~~~~~~~[m[K
+[3.819s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.819s]    64 | bool SimpleTfKinematics::getTransform(const std::shared_ptr<bumperbot_msgs::GetTransform::Request[01;31m[K>[m[K req,
+[3.819s]       |                                                                                                  [01;31m[K^[m[K
+[3.819s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:77:[m[K [01;31m[Kerror: [m[K‘[01m[KGetTransform[m[K’ is not a member of ‘[01m[Kbumperbot_msgs[m[K’; did you mean ‘[01m[Kbumperbot_msgs::srv::GetTransform[m[K’?
+[3.820s]    64 | bool SimpleTfKinematics::getTransform(const std::shared_ptr<bumperbot_msgs::[01;31m[KGetTransform[m[K::Request> req,
+[3.820s]       |                                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[3.820s] In file included from [01m[K/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp:7[m[K,
+[3.820s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:10[m[K,
+[3.820s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[3.820s] [01m[K/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp:283:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbumperbot_msgs::srv::GetTransform[m[K’ declared here
+[3.820s]   283 | struct [01;36m[KGetTransform[m[K
+[3.820s]       |        [01;36m[K^~~~~~~~~~~~[m[K
+[3.820s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.820s]    64 | bool SimpleTfKinematics::getTransform(const std::shared_ptr<bumperbot_msgs::GetTransform::Request[01;31m[K>[m[K req,
+[3.820s]       |                                                                                                  [01;31m[K^[m[K
+[3.820s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:77:[m[K [01;31m[Kerror: [m[K‘[01m[KGetTransform[m[K’ is not a member of ‘[01m[Kbumperbot_msgs[m[K’; did you mean ‘[01m[Kbumperbot_msgs::srv::GetTransform[m[K’?
+[3.820s]    64 | bool SimpleTfKinematics::getTransform(const std::shared_ptr<bumperbot_msgs::[01;31m[KGetTransform[m[K::Request> req,
+[3.820s]       |                                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[3.820s] In file included from [01m[K/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp:7[m[K,
+[3.821s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:10[m[K,
+[3.821s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[3.821s] [01m[K/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp:283:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbumperbot_msgs::srv::GetTransform[m[K’ declared here
+[3.821s]   283 | struct [01;36m[KGetTransform[m[K
+[3.821s]       |        [01;36m[K^~~~~~~~~~~~[m[K
+[3.821s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.821s]    64 | bool SimpleTfKinematics::getTransform(const std::shared_ptr<bumperbot_msgs::GetTransform::Request[01;31m[K>[m[K req,
+[3.821s]       |                                                                                                  [01;31m[K^[m[K
+[3.821s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:45:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[3.821s]    64 | bool SimpleTfKinematics::getTransform(const [01;31m[Kstd[m[K::shared_ptr<bumperbot_msgs::GetTransform::Request> req,
+[3.821s]       |                                             [01;31m[K^~~[m[K
+[3.821s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:77:[m[K [01;31m[Kerror: [m[K‘[01m[KGetTransform[m[K’ is not a member of ‘[01m[Kbumperbot_msgs[m[K’; did you mean ‘[01m[Kbumperbot_msgs::srv::GetTransform[m[K’?
+[3.821s]    64 | bool SimpleTfKinematics::getTransform(const std::shared_ptr<bumperbot_msgs::[01;31m[KGetTransform[m[K::Request> req,
+[3.821s]       |                                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[3.821s] In file included from [01m[K/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp:7[m[K,
+[3.821s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:10[m[K,
+[3.822s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[3.822s] [01m[K/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp:283:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbumperbot_msgs::srv::GetTransform[m[K’ declared here
+[3.822s]   283 | struct [01;36m[KGetTransform[m[K
+[3.822s]       |        [01;36m[K^~~~~~~~~~~~[m[K
+[3.822s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool SimpleTfKinematics::getTransform[m[K’ is not a static data member of ‘[01m[Kclass SimpleTfKinematics[m[K’
+[3.822s]    64 | bool [01;31m[KSimpleTfKinematics[m[K::getTransform(const std::shared_ptr<bumperbot_msgs::GetTransform::Request> req,
+[3.822s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.822s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:64:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[3.822s]    64 | bool SimpleTfKinematics::getTransform([01;31m[Kconst[m[K std::shared_ptr<bumperbot_msgs::GetTransform::Request> req,
+[3.822s]       |                                       [01;31m[K^~~~~[m[K
+[3.822s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:65:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[3.822s]    65 |                       [01;31m[Kconst[m[K std::shared_ptr<bumperbot_msgs::GetTransform::Response> res)
+[3.822s]       |                       [01;31m[K^~~~~[m[K
+[3.822s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:65:88:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.822s]    65 |                       const std::shared_ptr<bumperbot_msgs::GetTransform::Response> res[01;31m[K)[m[K
+[3.822s]       |                                                                                        [01;31m[K^[m[K
+[4.152s] [ 57%] [32m[1mLinking CXX executable simple_parameter[0m
+[4.272s] [ 57%] Built target simple_parameter
+[4.705s] [ 64%] [32m[1mLinking CXX executable simple_service_server[0m
+[4.734s] [ 71%] [32m[1mLinking CXX executable simple_service_client[0m
+[4.856s] gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+[4.856s] gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[4.856s] gmake[1]: *** Waiting for unfinished jobs....
+[4.856s] [ 71%] Built target simple_service_server
+[4.882s] [ 71%] Built target simple_service_client
+[5.459s] [ 78%] [32m[1mLinking CXX executable simple_publisher[0m
+[5.607s] [ 78%] Built target simple_publisher
+[8.752s] [ 85%] [32m[1mLinking CXX executable simple_subscriber[0m
+[8.787s] [ 92%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[9.051s] [ 92%] Built target simple_subscriber
+[9.100s] [ 92%] Built target simple_turtlesim_kinematics
+[9.101s] gmake: *** [Makefile:146: all] Error 2
+[9.102s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/arduinobot_ws/install/arduinobot_description:/home/bfg2h/arduinobot_ws/install/arduinobot_cpp_examples:/home/bfg2h/arduinobot_ws/install/arduinobot_controller:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16

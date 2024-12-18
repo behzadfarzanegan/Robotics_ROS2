@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/__init__.py" "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints.py" "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c" "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/_get_transform.py" "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c" "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

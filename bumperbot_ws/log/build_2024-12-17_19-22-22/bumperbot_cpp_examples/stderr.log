@@ -1,0 +1,8 @@
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In member function ‘[01m[Kvoid SimpleTfKinematics::getTransformCallback(std::shared_ptr<bumperbot_msgs::srv::GetTransform_Request_<std::allocator<void> > >, std::shared_ptr<bumperbot_msgs::srv::GetTransform_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:68:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class tf2_ros::Buffer[m[K’ {aka ‘[01m[Kclass tf2_ros::Buffer[m[K’} has no member named ‘[01m[Klookup_transform[m[K’; did you mean ‘[01m[KlookupTransform[m[K’?
+   68 |         requested_transform = tf_buffer_->[01;31m[Klookup_transform[m[K(req->frame_id, req->child_frame_id, rclcpp::Time(0));
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[KlookupTransform[m[K
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

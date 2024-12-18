@@ -70,6 +70,10 @@ CMakeFiles/bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/add_two_
 CMakeFiles/bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
 CMakeFiles/bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
 CMakeFiles/bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+CMakeFiles/bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/get_transform.hpp
+CMakeFiles/bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+CMakeFiles/bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+CMakeFiles/bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__traits.hpp
 
 rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/
 rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: rosidl_adapter/bumperbot_msgs/srv/AddTwoInts.idl
+rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: rosidl_adapter/bumperbot_msgs/srv/GetTransform.idl
 rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -159,11 +164,27 @@ rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp: rosidl_
 rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp: rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
 
+rosidl_generator_cpp/bumperbot_msgs/srv/get_transform.hpp: rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bumperbot_msgs/srv/get_transform.hpp
+
+rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__builder.hpp: rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+
+rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__struct.hpp: rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+
+rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__traits.hpp: rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+
 bumperbot_msgs__cpp: CMakeFiles/bumperbot_msgs__cpp
 bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp
 bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
 bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
 bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+bumperbot_msgs__cpp: rosidl_generator_cpp/bumperbot_msgs/srv/get_transform.hpp
 bumperbot_msgs__cpp: CMakeFiles/bumperbot_msgs__cpp.dir/build.make
 .PHONY : bumperbot_msgs__cpp
 

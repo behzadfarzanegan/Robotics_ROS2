@@ -3,7 +3,8 @@
   "output_dir": "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_c/bumperbot_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs:srv/AddTwoInts.idl"
+    "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs:srv/AddTwoInts.idl",
+    "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs:srv/GetTransform.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -82,6 +83,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs/srv/AddTwoInts.idl",
+    "/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs/srv/GetTransform.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",

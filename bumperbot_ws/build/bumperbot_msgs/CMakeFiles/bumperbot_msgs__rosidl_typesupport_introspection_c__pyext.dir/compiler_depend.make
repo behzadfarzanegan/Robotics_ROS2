@@ -245,8 +245,25 @@ CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_
   rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.h \
   rosidl_generator_c/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__struct.h \
-  rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+  rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.h \
+  rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.h \
+  rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
+  rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.h
 
+
+rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.h:
 
@@ -257,6 +274,8 @@ rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.h:
 /usr/include/python3.10/eval.h:
 
 /usr/include/python3.10/cpython/import.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
 
 /usr/include/python3.10/import.h:
 
@@ -292,7 +311,11 @@ rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.h:
 
 /usr/include/python3.10/genericaliasobject.h:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
 /usr/include/python3.10/descrobject.h:
+
+rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.h:
 
 /usr/include/python3.10/pythonrun.h:
 
@@ -329,6 +352,8 @@ rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
 /usr/include/python3.10/cpython/tupleobject.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h:
 
 /usr/include/python3.10/enumobject.h:
 
@@ -378,6 +403,8 @@ rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__struct.h:
 
 /usr/include/python3.10/exports.h:
 
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
@@ -419,6 +446,8 @@ rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -501,6 +530,8 @@ rosidl_generator_c/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h:
 
 /usr/include/python3.10/cpython/unicodeobject.h:
 
@@ -607,6 +638,8 @@ rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_intro
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h:
 
 /usr/include/python3.10/cpython/pythonrun.h:
 

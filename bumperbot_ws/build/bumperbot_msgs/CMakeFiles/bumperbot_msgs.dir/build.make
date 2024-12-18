@@ -69,6 +69,9 @@ include CMakeFiles/bumperbot_msgs.dir/progress.make
 CMakeFiles/bumperbot_msgs: /home/bfg2h/bumperbot_ws/src/bumperbot_msgs/srv/AddTwoInts.srv
 CMakeFiles/bumperbot_msgs: rosidl_cmake/srv/AddTwoInts_Request.msg
 CMakeFiles/bumperbot_msgs: rosidl_cmake/srv/AddTwoInts_Response.msg
+CMakeFiles/bumperbot_msgs: /home/bfg2h/bumperbot_ws/src/bumperbot_msgs/srv/GetTransform.srv
+CMakeFiles/bumperbot_msgs: rosidl_cmake/srv/GetTransform_Request.msg
+CMakeFiles/bumperbot_msgs: rosidl_cmake/srv/GetTransform_Response.msg
 CMakeFiles/bumperbot_msgs: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/bumperbot_msgs: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/bumperbot_msgs: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl

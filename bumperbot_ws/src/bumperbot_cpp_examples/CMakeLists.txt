@@ -32,7 +32,12 @@ ament_target_dependencies(simple_turtlesim_kinematics rclcpp turtlesim)
 
 add_executable(simple_tf_kinematics src/simple_tf_kinematics.cpp)
 target_include_directories(simple_tf_kinematics PUBLIC include)
-ament_target_dependencies(simple_tf_kinematics rclcpp geometry_msgs tf2_ros)
+ament_target_dependencies(simple_tf_kinematics
+    rclcpp
+    geometry_msgs
+    tf2_ros
+    bumperbot_msgs
+)
 
 add_executable(simple_service_server src/simple_service_server.cpp)
 target_include_directories(simple_service_server PUBLIC include)

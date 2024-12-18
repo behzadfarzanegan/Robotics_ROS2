@@ -70,8 +70,10 @@ bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py: rosidl_generator_py/bumperbot_
 bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
 bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
 bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints.py
+bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/_get_transform.py
 bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/__init__.py
 bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c
+bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c
 
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/bumperbot_msgs/srv/AddTwoInts.idl
+rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/bumperbot_msgs/srv/GetTransform.idl
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -159,11 +162,17 @@ rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c: 
 rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints.py: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints.py
 
+rosidl_generator_py/bumperbot_msgs/srv/_get_transform.py: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bumperbot_msgs/srv/_get_transform.py
+
 rosidl_generator_py/bumperbot_msgs/srv/__init__.py: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bumperbot_msgs/srv/__init__.py
 
 rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c
+
+rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c
 
 bumperbot_msgs__py: bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py
 bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
@@ -172,6 +181,8 @@ bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosi
 bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/__init__.py
 bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints.py
 bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c
+bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/_get_transform.py
+bumperbot_msgs__py: rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c
 bumperbot_msgs__py: bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py.dir/build.make
 .PHONY : bumperbot_msgs__py
 
