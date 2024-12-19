@@ -89,6 +89,7 @@
         "streambuf": "cpp",
         "thread": "cpp",
         "cfenv": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "dense": "cpp"
     }
 }

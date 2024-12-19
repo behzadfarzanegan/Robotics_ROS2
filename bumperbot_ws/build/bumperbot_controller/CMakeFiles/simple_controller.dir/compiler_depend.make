@@ -684,6 +684,10 @@ CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o: /home/bfg2h/bumper
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
   /usr/include/eigen3/Eigen/Dense \
   /usr/include/eigen3/Eigen/Core \
   /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -1130,6 +1134,10 @@ CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o: /home/bfg2h/bumper
 /usr/include/eigen3/Eigen/Core:
 
 /usr/include/eigen3/Eigen/Dense:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp:
 
@@ -1800,6 +1808,8 @@ CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o: /home/bfg2h/bumper
 /usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -2580,6 +2590,8 @@ CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o: /home/bfg2h/bumper
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
 

@@ -1,0 +1,39 @@
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:27:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kspeed_conversion_[m[K’
+   27 |     )
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+......
+   30 |     [32m[Kspeed_conversion_[m[K << wheel_radius_ / 2, wheel_radius_ / 2,
+      |     [32m[K~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:71:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ was not declared in this scope
+   71 |     double V = [01;31m[Kself[m[K.wheel_radius_/2*fi_right + self.wheel_radius_/2*fi_left;
+      |                [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:4[m[K,
+                 from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:74:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_loger[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_logger[m[K’?
+   74 |     RCLCPP_INFO_STREAM([01;31m[Kget_loger[m[K(), "Linear Velocity is measured as: " << V<<" and Angular Velocity is : "<< w<<"\n");
+      |                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:74:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(get_loger(), "Linear Velocity is measured as: " << V<<" and Angular Velocity is : "<< w<<"\n");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:74:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(get_loger(), "Linear Velocity is measured as: " << V<<" and Angular Velocity is : "<< w<<"\n");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:74:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(get_loger(), "Linear Velocity is measured as: " << V<<" and Angular Velocity is : "<< w<<"\n");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

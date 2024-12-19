@@ -21,11 +21,21 @@ SimpleController::SimpleController(const std::string &name) : Node(name)
         "/bumperbot_controller/cmd_vel", 10,
         std::bind(&SimpleController::velCallback, this, std::placeholders::_1));
 
+    joint_sub_ = create_subscription<sensor_msgs::msg::JointState>(
+        "/joint_states", 10,
+        std::bind(&SimpleController::jointCallback, this, std::placeholders::_1)
+    );
+
     // Initialize speed conversion matrix
     speed_conversion_ << wheel_radius_ / 2, wheel_radius_ / 2,
         -wheel_radius_ / wheel_separation_, wheel_radius_ / wheel_separation_;
 
     RCLCPP_INFO_STREAM(get_logger(), "The conversion matrix is \n" << speed_conversion_);
+
+    left_wheel_prev_pos_ =0;
+    right_wheel_prev_pos_ =0;
+    prev_time_ = get_clock()->now();
+
 }
 
 void SimpleController::velCallback(const geometry_msgs::msg::TwistStamped &msg)
@@ -40,6 +50,28 @@ void SimpleController::velCallback(const geometry_msgs::msg::TwistStamped &msg)
     wheel_speed_msg.data.push_back(wheel_speed.coeff(0));  // Right wheel speed
 
     wheel_cmd_pub_->publish(wheel_speed_msg);
+}
+void SimpleController::jointCallback(const sensor_msgs::msg::JointState &msg)
+{
+    double dp_right;
+    double dp_left;
+    dp_right = msg.position.at(0) - right_wheel_prev_pos_;
+    dp_left = msg.position.at(1) - left_wheel_prev_pos_;
+
+    rclcpp::Time msg_time = msg.header.stamp;
+    rclcpp::Duration dt = msg_time - prev_time_;
+
+    right_wheel_prev_pos_ = msg.position.at(0);
+    left_wheel_prev_pos_ =  msg.position.at(1);
+    prev_time_ = msg_time;
+
+    double fi_left = dp_left/dt.seconds();
+    double fi_right = dp_right/dt.seconds();
+
+    double V = wheel_radius_/2*fi_right + wheel_radius_/2*fi_left;
+    double w = wheel_radius_/wheel_separation_*fi_right - wheel_radius_/wheel_separation_*fi_left;
+
+    RCLCPP_INFO_STREAM(get_logger(), "Linear Velocity is measured as: " << V<<" and Angular Velocity is : "<< w<<"\n");
 }
 
 int main(int argc, char *argv[])

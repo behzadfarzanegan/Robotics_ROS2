@@ -28,6 +28,7 @@
     <minDepth>0.001</minDepth>
     <maxVel>0.1</maxVel>
     <fdir1>1 0 0</fdir1>
+    <material>Gazebo/Blue</material>
   </gazebo>
 
   <gazebo reference="wheel_right_link">
@@ -38,6 +39,11 @@
     <minDepth>0.001</minDepth>
     <maxVel>0.1</maxVel>
     <fdir1>1 0 0</fdir1>
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Red</material>
   </gazebo>
     
   <!-- Caster Wheels -->
@@ -48,6 +54,7 @@
     <kd>100.0</kd>
     <minDepth>0.001</minDepth>
     <maxVel>1.0</maxVel>
+    <material>Gazebo/Yellow</material>
   </gazebo>
     
   <gazebo reference="caster_front_link">
@@ -57,6 +64,7 @@
     <kd>100.0</kd>
     <minDepth>0.001</minDepth>
     <maxVel>1.0</maxVel>
+    <material>Gazebo/Yellow</material>
   </gazebo>
 
   <!-- ROS 2 Control -->
