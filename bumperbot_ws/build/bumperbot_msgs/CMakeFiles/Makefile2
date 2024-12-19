@@ -175,6 +175,7 @@ CMakeFiles/bumperbot_msgs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/bumperbot_msgs.dir
 
 # All Build rule for target.
+CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/all
 CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__cpp.dir/all
@@ -182,7 +183,6 @@ CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport
 CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/all
-CMakeFiles/bumperbot_msgs.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_msgs.dir/build.make CMakeFiles/bumperbot_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_msgs.dir/build.make CMakeFiles/bumperbot_msgs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfg2h/bumperbot_ws/build/bumperbot_msgs/CMakeFiles --progress-num= "Built target bumperbot_msgs"

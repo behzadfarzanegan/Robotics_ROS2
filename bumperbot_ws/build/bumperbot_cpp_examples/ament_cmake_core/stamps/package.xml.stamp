@@ -20,6 +20,7 @@
   <depend>tf2_ros</depend>
   <depend>geometry_msgs</depend>
   <depend>bumperbot_msgs</depend>
+  <depend>tf2</depend>
 
 
   <!-- Test Dependencies -->

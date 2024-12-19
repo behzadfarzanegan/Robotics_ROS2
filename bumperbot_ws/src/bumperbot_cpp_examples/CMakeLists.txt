@@ -13,6 +13,7 @@ find_package(turtlesim REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(bumperbot_msgs REQUIRED)
+find_package(tf2 REQUIRED)
 
 include_directories(include)
 
@@ -37,6 +38,7 @@ ament_target_dependencies(simple_tf_kinematics
     geometry_msgs
     tf2_ros
     bumperbot_msgs
+    tf2
 )
 
 add_executable(simple_service_server src/simple_service_server.cpp)

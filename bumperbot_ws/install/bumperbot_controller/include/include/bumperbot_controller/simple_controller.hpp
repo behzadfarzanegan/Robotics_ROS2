@@ -3,24 +3,28 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/twist_stamped.hpp>
-#include <Eigen/Core>
 #include <std_msgs/msg/float64_multi_array.hpp>
-
+#include <Eigen/Dense>
 
 class SimpleController : public rclcpp::Node
 {
 public:
-    SimpleController(const std::string& name);
+    explicit SimpleController(const std::string &node_name);
 
 private:
+    // Callback function for velocity messages
     void velCallback(const geometry_msgs::msg::TwistStamped &msg);
 
+    // ROS 2 Subscriber and Publisher
     rclcpp::Subscription<geometry_msgs::msg::TwistStamped>::SharedPtr vel_sub_;
     rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr wheel_cmd_pub_;
 
+    // Parameters
     double wheel_radius_;
     double wheel_separation_;
+
+    // Speed conversion matrix (Eigen)
     Eigen::Matrix2d speed_conversion_;
 };
 
-#endif // SIMPLE_CONTROLLER_HPP
+#endif  // SIMPLE_CONTROLLER_HPP

@@ -8,6 +8,7 @@
 #include <tf2_ros/buffer.h>
 #include <geometry_msgs/msg/transform_stamped.hpp>
 #include <bumperbot_msgs/srv/get_transform.hpp>
+#include <tf2/LinearMath/Quaternion.h>
 
 #include <memory>
 
@@ -36,6 +37,11 @@ private:
 
     double last_x_ = 0.0;
     double increment_x_ = 0.01;
+    int rotation_counter_ = 0;
+
+    tf2::Quaternion last_orientation_;
+    tf2::Quaternion orientation_increment_;
+
 };
 
 #endif // SIMPLE_KINEMATICS_HPP

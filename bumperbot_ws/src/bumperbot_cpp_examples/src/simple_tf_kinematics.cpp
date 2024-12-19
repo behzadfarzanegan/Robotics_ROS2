@@ -37,6 +37,9 @@ SimpleTfKinematics::SimpleTfKinematics(const std::string &name) : Node(name)
     get_transform_srv_ = create_service<bumperbot_msgs::srv::GetTransform>(
         "get_transform",
         std::bind(&SimpleTfKinematics::getTransformCallback, this, std::placeholders::_1, std::placeholders::_2));
+
+        last_orientation_.setRPY(0,0,0);
+        orientation_increment_.setRPY(0,0,0.05);
 }
 
 void SimpleTfKinematics::timerCallback()
@@ -44,13 +47,26 @@ void SimpleTfKinematics::timerCallback()
     dynamic_transform_stamped_.header.stamp = get_clock()->now();
     dynamic_transform_stamped_.header.frame_id = "odom";
     dynamic_transform_stamped_.child_frame_id = "bumperbot_base";
+
     dynamic_transform_stamped_.transform.translation.x = last_x_ + increment_x_;
     dynamic_transform_stamped_.transform.translation.y = 0.0;
     dynamic_transform_stamped_.transform.translation.z = 0.0;
-    dynamic_transform_stamped_.transform.rotation.w = 1.0;
+    tf2::Quaternion q;
+    q = last_orientation_ * orientation_increment_;
+    q.normalize();
+    dynamic_transform_stamped_.transform.rotation.x = q.x();
+    dynamic_transform_stamped_.transform.rotation.y = q.y();
+    dynamic_transform_stamped_.transform.rotation.z = q.z();
+    dynamic_transform_stamped_.transform.rotation.w = q.w();
 
     dynamic_tf_broadcaster_->sendTransform(dynamic_transform_stamped_);
     last_x_ = dynamic_transform_stamped_.transform.translation.x;
+    rotation_counter_ ++;
+    last_orientation_ = q;
+    if(rotation_counter_>=100){
+        rotation_counter_ =0;
+        orientation_increment_ = orientation_increment_.inverse();
+    }
 
     RCLCPP_INFO(get_logger(), "Published dynamic transform. Current x: %.2f", last_x_);
 }

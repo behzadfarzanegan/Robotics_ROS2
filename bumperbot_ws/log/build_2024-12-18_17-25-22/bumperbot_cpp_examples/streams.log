@@ -1,0 +1,39 @@
+[0.014s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/arduinobot_ws/install/arduinobot_description:/home/bfg2h/arduinobot_ws/install/arduinobot_cpp_examples:/home/bfg2h/arduinobot_ws/install/arduinobot_controller:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[0.057s] [ 85%] Built target simple_subscriber
+[0.057s] [ 85%] Built target simple_parameter
+[0.057s] [ 85%] Built target simple_service_server
+[0.057s] [ 85%] Built target simple_service_client
+[0.057s] [ 85%] Built target simple_turtlesim_kinematics
+[0.057s] [ 85%] Built target simple_publisher
+[0.060s] [ 92%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[2.257s] In file included from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[2.257s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:41:10:[m[K [01;31m[Kerror: [m[K‘[01m[KQuarternion[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type; did you mean ‘[01m[KQuaternion[m[K’?
+[2.257s]    41 |     tf2::[01;31m[KQuarternion[m[K last_orientation_;
+[2.257s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.257s]       |          [32m[KQuaternion[m[K
+[2.257s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:42:10:[m[K [01;31m[Kerror: [m[K‘[01m[KQuarternion[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type; did you mean ‘[01m[KQuaternion[m[K’?
+[2.257s]    42 |     tf2::[01;31m[KQuarternion[m[K orientation_increment_;
+[2.257s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.257s]       |          [32m[KQuaternion[m[K
+[2.281s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In constructor ‘[01m[KSimpleTfKinematics::SimpleTfKinematics(const string&)[m[K’:
+[2.281s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:41:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_orientation_[m[K’ was not declared in this scope
+[2.281s]    41 |         [01;31m[Klast_orientation_[m[K.setRPY(0,0,0);
+[2.281s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.291s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_increment_[m[K’ was not declared in this scope
+[2.291s]    42 |         [01;31m[Korientation_increment_[m[K.setRPY(0,0,0.05);
+[2.291s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.300s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In member function ‘[01m[Kvoid SimpleTfKinematics::timerCallback()[m[K’:
+[2.300s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_orientation_[m[K’ was not declared in this scope
+[2.300s]    55 |     q = [01;31m[Klast_orientation_[m[K * orientation_increment_;
+[2.300s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.309s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:55:29:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_increment_[m[K’ was not declared in this scope
+[2.310s]    55 |     q = last_orientation_ * [01;31m[Korientation_increment_[m[K;
+[2.310s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.319s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:68:34:[m[K [01;31m[Kerror: [m[K‘[01m[Korientaiotn_increment_[m[K’ was not declared in this scope
+[2.319s]    68 |         orientation_increment_ = [01;31m[Korientaiotn_increment_[m[K.inverse();
+[2.319s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.226s] gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+[3.226s] gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[3.226s] gmake: *** [Makefile:146: all] Error 2
+[3.228s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/arduinobot_ws/install/arduinobot_description:/home/bfg2h/arduinobot_ws/install/arduinobot_cpp_examples:/home/bfg2h/arduinobot_ws/install/arduinobot_controller:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
