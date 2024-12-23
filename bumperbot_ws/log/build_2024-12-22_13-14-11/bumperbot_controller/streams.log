@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target noisy_controller[0m
+[0.056s] [ 25%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.061s] [ 25%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.062s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_controller/noisy_controller.hpp: No such file or directory
+[0.063s]     1 | #include [01;31m[K"bumperbot_controller/noisy_controller.hpp"[m[K
+[0.063s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.063s] compilation terminated.
+[0.063s] gmake[2]: *** [CMakeFiles/noisy_controller.dir/build.make:76: CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o] Error 1
+[0.063s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/noisy_controller.dir/all] Error 2
+[0.063s] gmake[1]: *** Waiting for unfinished jobs....
+[0.070s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_controller/simple_controller.hpp: No such file or directory
+[0.071s]     1 | #include [01;31m[K"bumperbot_controller/simple_controller.hpp"[m[K
+[0.071s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.071s] compilation terminated.
+[0.071s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[0.071s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+[0.342s] running egg_info
+[0.342s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.342s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.343s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.344s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.345s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.367s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[0.368s] gmake: *** [Makefile:146: all] Error 2
+[0.369s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16

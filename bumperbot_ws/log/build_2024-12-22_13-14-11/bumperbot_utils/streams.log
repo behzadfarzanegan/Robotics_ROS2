@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[0.057s] Built target ament_cmake_python_copy_bumperbot_utils
+[0.342s] running egg_info
+[0.342s] writing bumperbot_utils.egg-info/PKG-INFO
+[0.343s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[0.343s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[0.345s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.345s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.370s] Built target ament_cmake_python_build_bumperbot_utils_egg
+[0.377s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_utils -- -j16 -l16

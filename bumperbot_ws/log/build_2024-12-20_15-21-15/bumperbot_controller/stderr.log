@@ -1,0 +1,21 @@
+In file included from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ does not name a type
+   47 |     [01;31m[Ktf2[m[K::Quaternion q;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+   45 |     [01;31m[Kq[m[K = setRPY(0,0,theta_);
+      |     [01;31m[K^[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetRPY[m[K’ was not declared in this scope
+   45 |     q = [01;31m[KsetRPY[m[K(0,0,theta_);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:94:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+   94 |     [01;31m[Kq[m[K = setRPY(0,0,theta_)
+      |     [01;31m[K^[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:94:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetRPY[m[K’ was not declared in this scope
+   94 |     q = [01;31m[KsetRPY[m[K(0,0,theta_)
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

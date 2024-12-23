@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.082s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.408s] In file included from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[0.409s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_broadcaster.h: No such file or directory
+[0.409s]    11 | #include [01;31m[K<tf2_ros/transform_broadcaster.h>[m[K
+[0.409s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.409s] compilation terminated.
+[0.419s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[0.419s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+[0.419s] gmake[1]: *** Waiting for unfinished jobs....
+[0.479s] running egg_info
+[0.480s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.480s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.481s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.484s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.485s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.531s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[0.532s] gmake: *** [Makefile:146: all] Error 2
+[0.535s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16

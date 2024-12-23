@@ -1,5 +1,6 @@
 setup.py
 bumperbot_controller/__init__.py
+bumperbot_controller/noisy_controller.py
 bumperbot_controller/simple_controller.py
 bumperbot_controller/simple_controller2.py
 bumperbot_controller.egg-info/PKG-INFO

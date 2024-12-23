@@ -1,0 +1,43 @@
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ does not name a type
+    4 | [01;31m[KNoisyController[m[K::NoisyController(const std::string &name) : Node(name)
+      | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:52:6:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ has not been declared
+   52 | void [01;31m[KNoisyController[m[K::jointCallback(const sensor_msgs::msg::JointState &msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:52:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   52 | void NoisyController::jointCallback(const [01;31m[Ksensor_msgs[m[K::msg::JointState &msg)
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:52:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   52 | void NoisyController::jointCallback(const sensor_msgs::msg[01;31m[K::[m[KJointState &msg)
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:52:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   52 | void NoisyController::jointCallback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KJointState &msg)
+      |                                    [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+      |                                                           [32m[K)[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:52:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   52 | void NoisyController::jointCallback(const sensor_msgs::msg[01;31m[K::[m[KJointState &msg)
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:115:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  115 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:116:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  116 |     auto node = std::[01;31m[Kmake_shared[m[K<NoisyController>("noisy_controller");
+      |                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:3:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+    2 | #include <random>
+  +++ |+[32m[K#include <memory>[m[K
+    3 | 
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:116:34:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ was not declared in this scope
+  116 |     auto node = std::make_shared<[01;31m[KNoisyController[m[K>("noisy_controller");
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:117:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  117 |     [01;31m[Krclcpp[m[K::spin(node);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:118:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  118 |     [01;31m[Krclcpp[m[K::shutdown();
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/noisy_controller.dir/build.make:76: CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/noisy_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

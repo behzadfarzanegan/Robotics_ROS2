@@ -1,0 +1,61 @@
+[0.014s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_controller
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.222s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.233s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.363s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.443s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.485s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.491s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.499s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.569s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.572s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.637s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.659s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.702s] -- Looking for pthread.h
+[0.752s] -- Looking for pthread.h - found
+[0.752s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.809s] -- Found Threads: TRUE  
+[0.881s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.883s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.901s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.916s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.932s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.056s] -- Configuring done
+[1.064s] -- Generating done
+[1.065s] -- Build files have been written to: /home/bfg2h/bumperbot_ws/build/bumperbot_controller
+[1.072s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_controller
+[1.073s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[1.101s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[1.113s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.116s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.369s] In file included from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[1.369s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_broadcaster.h: No such file or directory
+[1.369s]    11 | #include [01;31m[K<tf2_ros/transform_broadcaster.h>[m[K
+[1.369s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.369s] compilation terminated.
+[1.372s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[1.372s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+[1.373s] gmake[1]: *** Waiting for unfinished jobs....
+[1.415s] running egg_info
+[1.415s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.415s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.416s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.418s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.418s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.439s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.440s] gmake: *** [Makefile:146: all] Error 2
+[1.442s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16

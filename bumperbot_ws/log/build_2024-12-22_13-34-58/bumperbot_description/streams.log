@@ -1,0 +1,75 @@
+[0.018s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_description
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.428s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.550s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.614s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.707s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.710s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.711s] -- Added test 'lint_cmake' to check CMake code style
+[0.711s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.713s] -- Added test 'xmllint' to check XML markup files
+[0.714s] -- Configuring done
+[0.716s] -- Generating done
+[0.717s] -- Build files have been written to: /home/bfg2h/bumperbot_ws/build/bumperbot_description
+[0.725s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_description
+[0.727s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[0.757s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[0.784s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_description
+[0.790s] -- Install configuration: ""
+[0.790s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[0.790s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[0.790s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_2.sdf
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_3.sdf
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_4.sdf
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.config
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.sdf
+[0.791s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_2.sdf
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_3.sdf
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_4.sdf
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.config
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.sdf
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[0.792s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[0.793s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[0.793s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[0.793s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[0.794s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[0.794s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[0.794s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[0.794s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[0.794s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[0.794s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[0.794s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[0.794s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[0.794s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[0.795s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_description

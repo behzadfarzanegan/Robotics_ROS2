@@ -1,0 +1,24 @@
+[0.028s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_msgs -- -j16 -l16
+[0.073s] [ 12%] Built target bumperbot_msgs__rosidl_generator_c
+[0.073s] [ 12%] Built target bumperbot_msgs__cpp
+[0.082s] [ 12%] Built target ament_cmake_python_copy_bumperbot_msgs
+[0.094s] [ 23%] Built target bumperbot_msgs__rosidl_typesupport_c
+[0.095s] [ 33%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[0.096s] [ 43%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[0.096s] [ 53%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[0.104s] [ 64%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.105s] [ 74%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[0.128s] [ 74%] Built target bumperbot_msgs
+[0.148s] [ 76%] Built target bumperbot_msgs__py
+[0.171s] [ 84%] Built target bumperbot_msgs__rosidl_generator_py
+[0.190s] [100%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.190s] [100%] Built target bumperbot_msgs__rosidl_typesupport_c__pyext
+[0.190s] [100%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.415s] running egg_info
+[0.416s] writing bumperbot_msgs.egg-info/PKG-INFO
+[0.416s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[0.416s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[0.419s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.420s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.449s] [100%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[0.458s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_msgs -- -j16 -l16

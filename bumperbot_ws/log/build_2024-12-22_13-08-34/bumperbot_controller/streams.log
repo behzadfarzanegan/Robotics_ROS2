@@ -1,0 +1,56 @@
+[0.026s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target noisy_controller[0m
+[0.068s] [ 25%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.077s] [ 25%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.077s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:3:1:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ does not name a type
+[0.078s]     3 | [01;31m[KNoisyController[m[K::NoisyController(const std::string &name) : Node(name)
+[0.078s]       | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.078s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:51:6:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ has not been declared
+[0.078s]    51 | void [01;31m[KNoisyController[m[K::jointCallback(const sensor_msgs::msg::JointState &msg)
+[0.078s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.078s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:51:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[0.078s]    51 | void NoisyController::jointCallback(const [01;31m[Ksensor_msgs[m[K::msg::JointState &msg)
+[0.079s]       |                                           [01;31m[K^~~~~~~~~~~[m[K
+[0.079s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:51:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[0.079s]    51 | void NoisyController::jointCallback(const sensor_msgs::msg[01;31m[K::[m[KJointState &msg)
+[0.079s]       |                                                           [01;31m[K^~[m[K
+[0.079s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:51:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[0.079s]    51 | void NoisyController::jointCallback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KJointState &msg)
+[0.079s]       |                                    [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[0.080s]       |                                                           [32m[K)[m[K
+[0.080s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:51:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[0.080s]    51 | void NoisyController::jointCallback(const sensor_msgs::msg[01;31m[K::[m[KJointState &msg)
+[0.080s]       |                                                           [01;31m[K^~[m[K
+[0.080s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.080s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:114:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.080s]   114 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+[0.080s]       |     [01;31m[K^~~~~~[m[K
+[0.081s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:115:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.081s]   115 |     auto node = std::[01;31m[Kmake_shared[m[K<NoisyController>("simple_controller");
+[0.081s]       |                      [01;31m[K^~~~~~~~~~~[m[K
+[0.081s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.081s]     1 | #include "bumperbot_controller/noisy_controller.hpp"
+[0.081s]   +++ |+[32m[K#include <memory>[m[K
+[0.081s]     2 | 
+[0.081s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:115:34:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ was not declared in this scope
+[0.082s]   115 |     auto node = std::make_shared<[01;31m[KNoisyController[m[K>("simple_controller");
+[0.082s]       |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.082s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.082s]   116 |     [01;31m[Krclcpp[m[K::spin(node);
+[0.082s]       |     [01;31m[K^~~~~~[m[K
+[0.082s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:117:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.082s]   117 |     [01;31m[Krclcpp[m[K::shutdown();
+[0.082s]       |     [01;31m[K^~~~~~[m[K
+[0.082s] [ 75%] Built target simple_controller
+[0.083s] gmake[2]: *** [CMakeFiles/noisy_controller.dir/build.make:76: CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o] Error 1
+[0.083s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/noisy_controller.dir/all] Error 2
+[0.083s] gmake[1]: *** Waiting for unfinished jobs....
+[0.403s] running egg_info
+[0.403s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.403s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.404s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.406s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.406s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.436s] [ 75%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[0.436s] gmake: *** [Makefile:146: all] Error 2
+[0.438s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16

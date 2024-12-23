@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+running egg_info
+writing bumperbot_controller.egg-info/PKG-INFO
+writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+writing top-level names to bumperbot_controller.egg-info/top_level.txt
+reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+   38 |     [01;31m[Kx_[m[K = 0.0;
+      |     [01;31m[K^~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   39 |     [01;31m[Ky_[m[K = 0.0;
+      |     [01;31m[K^~[m[K
+      |     [32m[Kyn[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope
+   40 |     [01;31m[Ktheta_[m[K = 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope
+   78 |     [01;31m[Ktheta_[m[K += d_theta;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:79:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+   79 |     [01;31m[Kx_[m[K += d_s * std::cos(theta_);
+      |     [01;31m[K^~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   80 |     [01;31m[Ky_[m[K += d_s * std::sin(theta_);
+      |     [01;31m[K^~[m[K
+      |     [32m[Kyn[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

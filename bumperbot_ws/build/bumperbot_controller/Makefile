@@ -211,6 +211,19 @@ simple_controller/fast:
 .PHONY : simple_controller/fast
 
 #=============================================================================
+# Target rules for targets named noisy_controller
+
+# Build rule for target.
+noisy_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 noisy_controller
+.PHONY : noisy_controller
+
+# fast build rule for target.
+noisy_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/build
+.PHONY : noisy_controller/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_copy_bumperbot_controller
 
 # Build rule for target.
@@ -235,6 +248,30 @@ ament_cmake_python_build_bumperbot_controller_egg: cmake_check_build_system
 ament_cmake_python_build_bumperbot_controller_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir/build
 .PHONY : ament_cmake_python_build_bumperbot_controller_egg/fast
+
+src/noisy_controller.o: src/noisy_controller.cpp.o
+.PHONY : src/noisy_controller.o
+
+# target to build an object file
+src/noisy_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o
+.PHONY : src/noisy_controller.cpp.o
+
+src/noisy_controller.i: src/noisy_controller.cpp.i
+.PHONY : src/noisy_controller.i
+
+# target to preprocess a source file
+src/noisy_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.i
+.PHONY : src/noisy_controller.cpp.i
+
+src/noisy_controller.s: src/noisy_controller.cpp.s
+.PHONY : src/noisy_controller.s
+
+# target to generate assembly for a file
+src/noisy_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.s
+.PHONY : src/noisy_controller.cpp.s
 
 src/simple_controller.o: src/simple_controller.cpp.o
 .PHONY : src/simple_controller.o
@@ -277,7 +314,11 @@ help:
 	@echo "... ament_cmake_python_copy_bumperbot_controller"
 	@echo "... bumperbot_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... noisy_controller"
 	@echo "... simple_controller"
+	@echo "... src/noisy_controller.o"
+	@echo "... src/noisy_controller.i"
+	@echo "... src/noisy_controller.s"
 	@echo "... src/simple_controller.o"
 	@echo "... src/simple_controller.i"
 	@echo "... src/simple_controller.s"

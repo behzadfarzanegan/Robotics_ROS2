@@ -1,0 +1,50 @@
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:3:16:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+    3 | #include<memory
+      |                [01;31m[K^[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ does not name a type
+    5 | [01;31m[KNoisyController[m[K::NoisyController(const std::string &name) : Node(name)
+      | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:53:6:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ has not been declared
+   53 | void [01;31m[KNoisyController[m[K::jointCallback(const sensor_msgs::msg::JointState &msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:53:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   53 | void NoisyController::jointCallback(const [01;31m[Ksensor_msgs[m[K::msg::JointState &msg)
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:53:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   53 | void NoisyController::jointCallback(const sensor_msgs::msg[01;31m[K::[m[KJointState &msg)
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:53:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   53 | void NoisyController::jointCallback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KJointState &msg)
+      |                                    [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+      |                                                           [32m[K)[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:53:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   53 | void NoisyController::jointCallback(const sensor_msgs::msg[01;31m[K::[m[KJointState &msg)
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  116 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:117:34:[m[K [01;31m[Kerror: [m[K‘[01m[KNoisyController[m[K’ was not declared in this scope
+  117 |     auto node = std::make_shared<[01;31m[KNoisyController[m[K>("noisy_controller");
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:117:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(const char [17])[m[K’
+  117 |     auto node = [01;31m[Kstd::make_shared<NoisyController>("noisy_controller")[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:117:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  117 |     auto node = [01;31m[Kstd::make_shared<NoisyController>("noisy_controller")[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:118:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  118 |     [01;31m[Krclcpp[m[K::spin(node);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:119:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  119 |     [01;31m[Krclcpp[m[K::shutdown();
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/noisy_controller.dir/build.make:76: CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/noisy_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

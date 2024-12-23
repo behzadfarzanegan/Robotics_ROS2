@@ -1,0 +1,36 @@
+[0.014s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.050s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.346s] running egg_info
+[0.347s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.347s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.347s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.349s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.350s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.372s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.884s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[2.885s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+[2.885s]    38 |     [01;31m[Kx_[m[K = 0.0;
+[2.885s]       |     [01;31m[K^~[m[K
+[2.889s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[2.889s]    39 |     [01;31m[Ky_[m[K = 0.0;
+[2.889s]       |     [01;31m[K^~[m[K
+[2.889s]       |     [32m[Kyn[m[K
+[2.895s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope
+[2.895s]    40 |     [01;31m[Ktheta_[m[K = 0;
+[2.895s]       |     [01;31m[K^~~~~~[m[K
+[2.933s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[2.933s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope
+[2.933s]    78 |     [01;31m[Ktheta_[m[K += d_theta;
+[2.933s]       |     [01;31m[K^~~~~~[m[K
+[2.937s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:79:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+[2.938s]    79 |     [01;31m[Kx_[m[K += d_s * std::cos(theta_);
+[2.938s]       |     [01;31m[K^~[m[K
+[2.942s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[2.942s]    80 |     [01;31m[Ky_[m[K += d_s * std::sin(theta_);
+[2.942s]       |     [01;31m[K^~[m[K
+[2.942s]       |     [32m[Kyn[m[K
+[6.025s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[6.025s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+[6.026s] gmake: *** [Makefile:146: all] Error 2
+[6.028s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
