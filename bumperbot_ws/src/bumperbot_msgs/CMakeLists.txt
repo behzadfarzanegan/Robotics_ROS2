@@ -9,6 +9,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInts.srv"
   "srv/GetTransform.srv"
+  "action/Fibonacci.action"
   DEPENDENCIES geometry_msgs
 )
 

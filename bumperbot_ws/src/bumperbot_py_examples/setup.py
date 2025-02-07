@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='user',
-    maintainer_email='antonio.brandi@outlook.it',
+    maintainer_email='b.farzanegan@gmail.com',
     description='ROS 2 Code Examples',
     license='Apache 2.0',
     tests_require=['pytest'],
@@ -27,7 +27,7 @@ setup(
             'simple_tf_kinematics = bumperbot_py_examples.simple_tf_kinematics:main',
             'simple_service_server = bumperbot_py_examples.simple_service_server:main',
             'simple_service_client = bumperbot_py_examples.simple_service_client:main',
-
+            'simple_action_server = bumperbot_py_examples.simple_action_server:main',
         ],
     },
 )

@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target noisy_controller[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
-[ 75%] Built target simple_controller
-[ 75%] Built target ament_cmake_python_copy_bumperbot_controller

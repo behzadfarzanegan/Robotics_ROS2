@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:33 (install):
-  install TARGETS given target "noise_controller" which does not exist.
-
-[0m
-gmake: *** [Makefile:295: cmake_check_build_system] Error 1

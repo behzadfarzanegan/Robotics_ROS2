@@ -1,8 +1,0 @@
-[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In member function ‘[01m[Kvoid SimpleTfKinematics::timerCallback()[m[K’:
-[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:68:34:[m[K [01;31m[Kerror: [m[K‘[01m[Korientaiotn_increment_[m[K’ was not declared in this scope; did you mean ‘[01m[Korientation_increment_[m[K’?
-   68 |         orientation_increment_ = [01;31m[Korientaiotn_increment_[m[K.inverse();
-      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-      |                                  [32m[Korientation_increment_[m[K
-gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

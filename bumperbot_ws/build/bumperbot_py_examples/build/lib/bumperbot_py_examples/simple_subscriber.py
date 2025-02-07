@@ -11,6 +11,7 @@ class SimpleSubscriber(Node):
         self.sub_
 
     def msgCallback(self, msg):
+        
         self.get_logger().info("I heard: %s" % msg.data)
 
 

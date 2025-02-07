@@ -49,6 +49,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/bfg2h/bumperbot_ws/src/bumperbot_description/models"
     "/home/bfg2h/bumperbot_ws/src/bumperbot_description/urdf"
     "/home/bfg2h/bumperbot_ws/src/bumperbot_description/rviz"
+    "/home/bfg2h/bumperbot_ws/src/bumperbot_description/photos"
+    "/home/bfg2h/bumperbot_ws/src/bumperbot_description/worlds"
     )
 endif()
 

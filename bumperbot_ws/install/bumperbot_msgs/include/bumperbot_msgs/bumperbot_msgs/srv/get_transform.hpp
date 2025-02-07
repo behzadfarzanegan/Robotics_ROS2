@@ -7,5 +7,6 @@
 #include "bumperbot_msgs/srv/detail/get_transform__struct.hpp"
 #include "bumperbot_msgs/srv/detail/get_transform__builder.hpp"
 #include "bumperbot_msgs/srv/detail/get_transform__traits.hpp"
+#include "bumperbot_msgs/srv/detail/get_transform__type_support.hpp"
 
 #endif  // BUMPERBOT_MSGS__SRV__GET_TRANSFORM_HPP_
