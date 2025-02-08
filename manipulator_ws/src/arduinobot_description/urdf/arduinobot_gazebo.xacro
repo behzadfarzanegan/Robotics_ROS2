@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<robot name="arduinobot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- ROS 2 Control -->
+
+   <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+      <parameters>$(find arduinobot_controllers)/config/arduinobot_controllers.yaml</parameters>
+    </plugin>
+
+    <!-- Transmissions -->
+    <transmission name="trans_joint_1" type="transmission_interface/SimpleTransmission">
+        <joint name="joint_1">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="actuator_1">
+            <mechanicalReduction>1.0</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <transmission name="trans_joint_2" type="transmission_interface/SimpleTransmission">
+        <joint name="joint_2">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="actuator_2">
+            <mechanicalReduction>1.0</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <transmission name="trans_joint_3" type="transmission_interface/SimpleTransmission">
+        <joint name="joint_3">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="actuator_3">
+            <mechanicalReduction>1.0</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <transmission name="trans_joint_4" type="transmission_interface/SimpleTransmission">
+        <joint name="joint_4">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="actuator_4">
+            <mechanicalReduction>1.0</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <transmission name="trans_joint_5" type="transmission_interface/SimpleTransmission">
+        <joint name="joint_5">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="actuator_5">
+            <mechanicalReduction>1.0</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    
+  </gazebo>
+
+</robot>

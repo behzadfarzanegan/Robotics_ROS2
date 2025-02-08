@@ -1,0 +1,17 @@
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/config/arduinobot_controllers.yaml
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/launch/controller.launch.py
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/ament_index/resource_index/package_run_dependencies/arduinobot_controllers
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/ament_index/resource_index/parent_prefix_path/arduinobot_controllers
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/environment/ament_prefix_path.sh
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/environment/ament_prefix_path.dsv
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/environment/path.sh
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/environment/path.dsv
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/local_setup.bash
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/local_setup.sh
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/local_setup.zsh
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/local_setup.dsv
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/package.dsv
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/ament_index/resource_index/packages/arduinobot_controllers
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/cmake/arduinobot_controllersConfig.cmake
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/cmake/arduinobot_controllersConfig-version.cmake
+/home/bfg2h/manipulator_ws/install/arduinobot_controllers/share/arduinobot_controllers/package.xml

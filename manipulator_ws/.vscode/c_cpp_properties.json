@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/bfg2h/bumperbot_ws/install/bumperbot_utils/include/**",
+        "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/include/**",
+        "/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/include/**",
+        "/home/bfg2h/bumperbot_ws/install/bumperbot_controller/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/bfg2h/manipulator_ws/src/arduinobot_controllers/include/**",
+        "/home/bfg2h/manipulator_ws/src/arduinobot_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

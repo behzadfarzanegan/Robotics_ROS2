@@ -1,0 +1,72 @@
+[0.011s] Invoking command in '/home/bfg2h/manipulator_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/manipulator_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/bfg2h/manipulator_ws/install/arduinobot_description
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.237s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.489s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.567s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.568s] -- Added test 'lint_cmake' to check CMake code style
+[0.569s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.570s] -- Added test 'xmllint' to check XML markup files
+[0.571s] -- Configuring done
+[0.573s] -- Generating done
+[0.575s] -- Build files have been written to: /home/bfg2h/manipulator_ws/build/arduinobot_description
+[0.577s] Invoked command in '/home/bfg2h/manipulator_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/manipulator_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/bfg2h/manipulator_ws/install/arduinobot_description
+[0.579s] Invoking command in '/home/bfg2h/manipulator_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/manipulator_ws/build/arduinobot_description -- -j16 -l16
+[0.605s] Invoked command in '/home/bfg2h/manipulator_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/manipulator_ws/build/arduinobot_description -- -j16 -l16
+[0.612s] Invoking command in '/home/bfg2h/manipulator_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/manipulator_ws/build/arduinobot_description
+[0.617s] -- Install configuration: ""
+[0.617s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/launch
+[0.617s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[0.618s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[0.618s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[0.618s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[0.618s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[0.619s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[0.619s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
+[0.619s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[0.621s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[0.622s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[0.622s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[0.622s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[0.624s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[0.624s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[0.625s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[0.626s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[0.627s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[0.628s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[0.628s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[0.628s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/rviz
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/worlds
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/worlds/empty.world
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/worlds/small_house.world
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/worlds/small_warehouse.world
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[0.629s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[0.630s] -- Installing: /home/bfg2h/manipulator_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[0.632s] Invoked command in '/home/bfg2h/manipulator_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/manipulator_ws/build/arduinobot_description

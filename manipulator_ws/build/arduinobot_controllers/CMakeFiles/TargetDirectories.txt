@@ -1,0 +1,9 @@
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/uninstall.dir
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/arduinobot_controllers_uninstall.dir
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/test.dir
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/edit_cache.dir
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/rebuild_cache.dir
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/list_install_components.dir
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/install.dir
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/install/local.dir
+/home/bfg2h/manipulator_ws/build/arduinobot_controllers/CMakeFiles/install/strip.dir
