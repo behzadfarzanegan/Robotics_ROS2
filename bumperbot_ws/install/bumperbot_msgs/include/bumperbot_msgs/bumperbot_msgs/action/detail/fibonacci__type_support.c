@@ -101,7 +101,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 
 
 // Include directives for member types
-// Member `sequnece`
+// Member `sequence`
 #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
 #ifdef __cplusplus
@@ -123,7 +123,7 @@ void bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_
   bumperbot_msgs__action__Fibonacci_Result__fini(message_memory);
 }
 
-size_t bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__size_function__Fibonacci_Result__sequnece(
+size_t bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__size_function__Fibonacci_Result__sequence(
   const void * untyped_member)
 {
   const rosidl_runtime_c__int32__Sequence * member =
@@ -131,7 +131,7 @@ size_t bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspectio
   return member->size;
 }
 
-const void * bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Result__sequnece(
+const void * bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Result__sequence(
   const void * untyped_member, size_t index)
 {
   const rosidl_runtime_c__int32__Sequence * member =
@@ -139,7 +139,7 @@ const void * bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_intros
   return &member->data[index];
 }
 
-void * bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_function__Fibonacci_Result__sequnece(
+void * bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_function__Fibonacci_Result__sequence(
   void * untyped_member, size_t index)
 {
   rosidl_runtime_c__int32__Sequence * member =
@@ -147,29 +147,29 @@ void * bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspectio
   return &member->data[index];
 }
 
-void bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Result__sequnece(
+void bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Result__sequence(
   const void * untyped_member, size_t index, void * untyped_value)
 {
   const int32_t * item =
     ((const int32_t *)
-    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Result__sequnece(untyped_member, index));
+    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Result__sequence(untyped_member, index));
   int32_t * value =
     (int32_t *)(untyped_value);
   *value = *item;
 }
 
-void bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Result__sequnece(
+void bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Result__sequence(
   void * untyped_member, size_t index, const void * untyped_value)
 {
   int32_t * item =
     ((int32_t *)
-    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_function__Fibonacci_Result__sequnece(untyped_member, index));
+    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_function__Fibonacci_Result__sequence(untyped_member, index));
   const int32_t * value =
     (const int32_t *)(untyped_value);
   *item = *value;
 }
 
-bool bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Result__sequnece(
+bool bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Result__sequence(
   void * untyped_member, size_t size)
 {
   rosidl_runtime_c__int32__Sequence * member =
@@ -180,21 +180,21 @@ bool bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_
 
 static rosidl_typesupport_introspection_c__MessageMember bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__Fibonacci_Result_message_member_array[1] = {
   {
-    "sequnece",  // name
+    "sequence",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     true,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(bumperbot_msgs__action__Fibonacci_Result, sequnece),  // bytes offset in struct
+    offsetof(bumperbot_msgs__action__Fibonacci_Result, sequence),  // bytes offset in struct
     NULL,  // default value
-    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__size_function__Fibonacci_Result__sequnece,  // size() function pointer
-    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Result__sequnece,  // get_const(index) function pointer
-    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_function__Fibonacci_Result__sequnece,  // get(index) function pointer
-    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Result__sequnece,  // fetch(index, &value) function pointer
-    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Result__sequnece,  // assign(index, value) function pointer
-    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Result__sequnece  // resize(index) function pointer
+    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__size_function__Fibonacci_Result__sequence,  // size() function pointer
+    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Result__sequence,  // get_const(index) function pointer
+    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__get_function__Fibonacci_Result__sequence,  // get(index) function pointer
+    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Result__sequence,  // fetch(index, &value) function pointer
+    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Result__sequence,  // assign(index, value) function pointer
+    bumperbot_msgs__action__Fibonacci_Result__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Result__sequence  // resize(index) function pointer
   }
 };
 

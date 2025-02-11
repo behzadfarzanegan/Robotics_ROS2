@@ -13,7 +13,7 @@ module bumperbot_msgs {
     @verbatim (language="comment", text=
       "Result")
     struct Fibonacci_Result {
-      sequence<int32> sequnece;
+      sequence<int32> sequence;
     };
     @verbatim (language="comment", text=
       "Feedback")

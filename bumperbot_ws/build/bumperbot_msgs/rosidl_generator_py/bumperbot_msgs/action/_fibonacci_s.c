@@ -148,8 +148,8 @@ bool bumperbot_msgs__action__fibonacci__result__convert_from_py(PyObject * _pyms
     assert(strncmp("bumperbot_msgs.action._fibonacci.Fibonacci_Result", full_classname_dest, 49) == 0);
   }
   bumperbot_msgs__action__Fibonacci_Result * ros_message = _ros_message;
-  {  // sequnece
-    PyObject * field = PyObject_GetAttrString(_pymsg, "sequnece");
+  {  // sequence
+    PyObject * field = PyObject_GetAttrString(_pymsg, "sequence");
     if (!field) {
       return false;
     }
@@ -162,13 +162,13 @@ bool bumperbot_msgs__action__fibonacci__result__convert_from_py(PyObject * _pyms
         return false;
       }
       Py_ssize_t size = view.len / sizeof(int32_t);
-      if (!rosidl_runtime_c__int32__Sequence__init(&(ros_message->sequnece), size)) {
+      if (!rosidl_runtime_c__int32__Sequence__init(&(ros_message->sequence), size)) {
         PyErr_SetString(PyExc_RuntimeError, "unable to create int32__Sequence ros_message");
         PyBuffer_Release(&view);
         Py_DECREF(field);
         return false;
       }
-      int32_t * dest = ros_message->sequnece.data;
+      int32_t * dest = ros_message->sequence.data;
       rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
       if (rc < 0) {
         PyBuffer_Release(&view);
@@ -177,7 +177,7 @@ bool bumperbot_msgs__action__fibonacci__result__convert_from_py(PyObject * _pyms
       }
       PyBuffer_Release(&view);
     } else {
-      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'sequnece'");
+      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'sequence'");
       if (!seq_field) {
         Py_DECREF(field);
         return false;
@@ -188,13 +188,13 @@ bool bumperbot_msgs__action__fibonacci__result__convert_from_py(PyObject * _pyms
         Py_DECREF(field);
         return false;
       }
-      if (!rosidl_runtime_c__int32__Sequence__init(&(ros_message->sequnece), size)) {
+      if (!rosidl_runtime_c__int32__Sequence__init(&(ros_message->sequence), size)) {
         PyErr_SetString(PyExc_RuntimeError, "unable to create int32__Sequence ros_message");
         Py_DECREF(seq_field);
         Py_DECREF(field);
         return false;
       }
-      int32_t * dest = ros_message->sequnece.data;
+      int32_t * dest = ros_message->sequence.data;
       for (Py_ssize_t i = 0; i < size; ++i) {
         PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
         if (!item) {
@@ -232,9 +232,9 @@ PyObject * bumperbot_msgs__action__fibonacci__result__convert_to_py(void * raw_r
     }
   }
   bumperbot_msgs__action__Fibonacci_Result * ros_message = (bumperbot_msgs__action__Fibonacci_Result *)raw_ros_message;
-  {  // sequnece
+  {  // sequence
     PyObject * field = NULL;
-    field = PyObject_GetAttrString(_pymessage, "sequnece");
+    field = PyObject_GetAttrString(_pymessage, "sequence");
     if (!field) {
       return NULL;
     }
@@ -271,12 +271,12 @@ PyObject * bumperbot_msgs__action__fibonacci__result__convert_to_py(void * raw_r
       }
       Py_DECREF(pop);
     }
-    if (ros_message->sequnece.size > 0) {
+    if (ros_message->sequence.size > 0) {
       // populating the array.array using the frombytes method
       PyObject * frombytes = PyObject_GetAttrString(field, "frombytes");
       assert(frombytes != NULL);
-      int32_t * src = &(ros_message->sequnece.data[0]);
-      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->sequnece.size * sizeof(int32_t));
+      int32_t * src = &(ros_message->sequence.data[0]);
+      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->sequence.size * sizeof(int32_t));
       assert(data != NULL);
       PyObject * ret = PyObject_CallFunctionObjArgs(frombytes, data, NULL);
       Py_DECREF(data);

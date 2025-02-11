@@ -1,0 +1,13 @@
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Kvoid bumperbot_cpp_example::SimpleActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<bumperbot_msgs::action::Fibonacci> >)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:63:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequnece[m[K’; did you mean ‘[01m[Ksequence[m[K’?
+   63 |                 result->[01;31m[Ksequnece[m[K = sequence; // ✅ Correct field name
+      |                         [01;31m[K^~~~~~~~[m[K
+      |                         [32m[Ksequence[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:77:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequnece[m[K’; did you mean ‘[01m[Ksequence[m[K’?
+   77 |             result->[01;31m[Ksequnece[m[K = sequence; // ✅ Correct field name
+      |                     [01;31m[K^~~~~~~~[m[K
+      |                     [32m[Ksequence[m[K
+gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:76: CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

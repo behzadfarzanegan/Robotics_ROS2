@@ -159,15 +159,15 @@ struct Fibonacci_Result_
   }
 
   // field types and members
-  using _sequnece_type =
+  using _sequence_type =
     std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
-  _sequnece_type sequnece;
+  _sequence_type sequence;
 
   // setters for named parameter idiom
-  Type & set__sequnece(
+  Type & set__sequence(
     const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
   {
-    this->sequnece = _arg;
+    this->sequence = _arg;
     return *this;
   }
 
@@ -213,7 +213,7 @@ struct Fibonacci_Result_
   // comparison operators
   bool operator==(const Fibonacci_Result_ & other) const
   {
-    if (this->sequnece != other.sequnece) {
+    if (this->sequence != other.sequence) {
       return false;
     }
     return true;

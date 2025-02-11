@@ -24,7 +24,7 @@ class SimpleActionServer(Node):
 
         goal_handle.succeed()
         result = Fibonacci.Result()
-        result.sequnece = feedback_msg.partial_sequence
+        result.sequence = feedback_msg.partial_sequence
         return result
 
 def main():

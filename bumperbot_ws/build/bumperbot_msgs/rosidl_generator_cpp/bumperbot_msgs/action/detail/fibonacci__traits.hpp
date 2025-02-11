@@ -117,14 +117,14 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: sequnece
+  // member: sequence
   {
-    if (msg.sequnece.size() == 0) {
-      out << "sequnece: []";
+    if (msg.sequence.size() == 0) {
+      out << "sequence: []";
     } else {
-      out << "sequnece: [";
-      size_t pending_items = msg.sequnece.size();
-      for (auto item : msg.sequnece) {
+      out << "sequence: [";
+      size_t pending_items = msg.sequence.size();
+      for (auto item : msg.sequence) {
         rosidl_generator_traits::value_to_yaml(item, out);
         if (--pending_items > 0) {
           out << ", ";
@@ -140,16 +140,16 @@ inline void to_block_style_yaml(
   const Fibonacci_Result & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: sequnece
+  // member: sequence
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    if (msg.sequnece.size() == 0) {
-      out << "sequnece: []\n";
+    if (msg.sequence.size() == 0) {
+      out << "sequence: []\n";
     } else {
-      out << "sequnece:\n";
-      for (auto item : msg.sequnece) {
+      out << "sequence:\n";
+      for (auto item : msg.sequence) {
         if (indentation > 0) {
           out << std::string(indentation, ' ');
         }

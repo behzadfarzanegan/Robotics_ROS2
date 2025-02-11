@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
+[ 11%] Built target simple_action_server_node
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[ 27%] Built target simple_turtlesim_kinematics
+[ 38%] Built target simple_parameter
+[ 50%] Built target simple_publisher
+[ 61%] Built target simple_subscriber
+[ 66%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable simple_service_client[0m
+[ 88%] [32m[1mLinking CXX executable simple_service_server[0m
+[ 88%] Built target simple_service_client
+[ 88%] Built target simple_service_server
+[ 94%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[ 94%] Built target simple_tf_kinematics

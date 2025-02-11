@@ -244,9 +244,9 @@ cdr_serialize(
   const bumperbot_msgs::action::Fibonacci_Result & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: sequnece
+  // Member: sequence
   {
-    cdr << ros_message.sequnece;
+    cdr << ros_message.sequence;
   }
   return true;
 }
@@ -257,9 +257,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   bumperbot_msgs::action::Fibonacci_Result & ros_message)
 {
-  // Member: sequnece
+  // Member: sequence
   {
-    cdr >> ros_message.sequnece;
+    cdr >> ros_message.sequence;
   }
 
   return true;
@@ -278,13 +278,13 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: sequnece
+  // Member: sequence
   {
-    size_t array_size = ros_message.sequnece.size();
+    size_t array_size = ros_message.sequence.size();
 
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.sequnece[0]);
+    size_t item_size = sizeof(ros_message.sequence[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -312,7 +312,7 @@ max_serialized_size_Fibonacci_Result(
   is_plain = true;
 
 
-  // Member: sequnece
+  // Member: sequence
   {
     size_t array_size = 0;
     full_bounded = false;
@@ -333,7 +333,7 @@ max_serialized_size_Fibonacci_Result(
     using DataType = bumperbot_msgs::action::Fibonacci_Result;
     is_plain =
       (
-      offsetof(DataType, sequnece) +
+      offsetof(DataType, sequence) +
       last_member_size
       ) == ret_val;
   }

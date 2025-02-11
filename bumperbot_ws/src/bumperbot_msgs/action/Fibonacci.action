@@ -2,7 +2,7 @@
 int32 order
 ---
 #Result
-int32[] sequnece
+int32[] sequence
 ---
 #Feedback
 int32[] partial_sequence

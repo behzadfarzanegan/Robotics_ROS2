@@ -228,8 +228,8 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/primitives_sequence.h"  // sequnece
-#include "rosidl_runtime_c/primitives_sequence_functions.h"  // sequnece
+#include "rosidl_runtime_c/primitives_sequence.h"  // sequence
+#include "rosidl_runtime_c/primitives_sequence_functions.h"  // sequence
 
 // forward declare type support functions
 
@@ -245,10 +245,10 @@ static bool _Fibonacci_Result__cdr_serialize(
     return false;
   }
   const _Fibonacci_Result__ros_msg_type * ros_message = static_cast<const _Fibonacci_Result__ros_msg_type *>(untyped_ros_message);
-  // Field name: sequnece
+  // Field name: sequence
   {
-    size_t size = ros_message->sequnece.size;
-    auto array_ptr = ros_message->sequnece.data;
+    size_t size = ros_message->sequence.size;
+    auto array_ptr = ros_message->sequence.data;
     cdr << static_cast<uint32_t>(size);
     cdr.serializeArray(array_ptr, size);
   }
@@ -265,19 +265,19 @@ static bool _Fibonacci_Result__cdr_deserialize(
     return false;
   }
   _Fibonacci_Result__ros_msg_type * ros_message = static_cast<_Fibonacci_Result__ros_msg_type *>(untyped_ros_message);
-  // Field name: sequnece
+  // Field name: sequence
   {
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
-    if (ros_message->sequnece.data) {
-      rosidl_runtime_c__int32__Sequence__fini(&ros_message->sequnece);
+    if (ros_message->sequence.data) {
+      rosidl_runtime_c__int32__Sequence__fini(&ros_message->sequence);
     }
-    if (!rosidl_runtime_c__int32__Sequence__init(&ros_message->sequnece, size)) {
-      fprintf(stderr, "failed to create array for field 'sequnece'");
+    if (!rosidl_runtime_c__int32__Sequence__init(&ros_message->sequence, size)) {
+      fprintf(stderr, "failed to create array for field 'sequence'");
       return false;
     }
-    auto array_ptr = ros_message->sequnece.data;
+    auto array_ptr = ros_message->sequence.data;
     cdr.deserializeArray(array_ptr, size);
   }
 
@@ -298,10 +298,10 @@ size_t get_serialized_size_bumperbot_msgs__action__Fibonacci_Result(
   (void)padding;
   (void)wchar_size;
 
-  // field.name sequnece
+  // field.name sequence
   {
-    size_t array_size = ros_message->sequnece.size;
-    auto array_ptr = ros_message->sequnece.data;
+    size_t array_size = ros_message->sequence.size;
+    auto array_ptr = ros_message->sequence.data;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
@@ -338,7 +338,7 @@ size_t max_serialized_size_bumperbot_msgs__action__Fibonacci_Result(
   full_bounded = true;
   is_plain = true;
 
-  // member: sequnece
+  // member: sequence
   {
     size_t array_size = 0;
     full_bounded = false;
@@ -359,7 +359,7 @@ size_t max_serialized_size_bumperbot_msgs__action__Fibonacci_Result(
     using DataType = bumperbot_msgs__action__Fibonacci_Result;
     is_plain =
       (
-      offsetof(DataType, sequnece) +
+      offsetof(DataType, sequence) +
       last_member_size
       ) == ret_val;
   }

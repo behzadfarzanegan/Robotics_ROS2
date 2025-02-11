@@ -198,17 +198,17 @@ bumperbot_localization_uninstall/fast:
 .PHONY : bumperbot_localization_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_bumperbot_localization
+# Target rules for targets named ament_cmake_python_copy_bumperbot_localization
 
 # Build rule for target.
-ament_cmake_python_symlink_bumperbot_localization: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_bumperbot_localization
-.PHONY : ament_cmake_python_symlink_bumperbot_localization
+ament_cmake_python_copy_bumperbot_localization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_bumperbot_localization
+.PHONY : ament_cmake_python_copy_bumperbot_localization
 
 # fast build rule for target.
-ament_cmake_python_symlink_bumperbot_localization/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_bumperbot_localization.dir/build.make CMakeFiles/ament_cmake_python_symlink_bumperbot_localization.dir/build
-.PHONY : ament_cmake_python_symlink_bumperbot_localization/fast
+ament_cmake_python_copy_bumperbot_localization/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/build.make CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/build
+.PHONY : ament_cmake_python_copy_bumperbot_localization/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_bumperbot_localization_egg
@@ -274,7 +274,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_bumperbot_localization_egg"
-	@echo "... ament_cmake_python_symlink_bumperbot_localization"
+	@echo "... ament_cmake_python_copy_bumperbot_localization"
 	@echo "... bumperbot_localization_uninstall"
 	@echo "... uninstall"
 	@echo "... kalman_filter"

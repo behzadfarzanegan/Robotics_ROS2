@@ -63,15 +63,15 @@ namespace action
 namespace builder
 {
 
-class Init_Fibonacci_Result_sequnece
+class Init_Fibonacci_Result_sequence
 {
 public:
-  Init_Fibonacci_Result_sequnece()
+  Init_Fibonacci_Result_sequence()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::bumperbot_msgs::action::Fibonacci_Result sequnece(::bumperbot_msgs::action::Fibonacci_Result::_sequnece_type arg)
+  ::bumperbot_msgs::action::Fibonacci_Result sequence(::bumperbot_msgs::action::Fibonacci_Result::_sequence_type arg)
   {
-    msg_.sequnece = std::move(arg);
+    msg_.sequence = std::move(arg);
     return std::move(msg_);
   }
 
@@ -90,7 +90,7 @@ template<>
 inline
 auto build<::bumperbot_msgs::action::Fibonacci_Result>()
 {
-  return bumperbot_msgs::action::builder::Init_Fibonacci_Result_sequnece();
+  return bumperbot_msgs::action::builder::Init_Fibonacci_Result_sequence();
 }
 
 }  // namespace bumperbot_msgs

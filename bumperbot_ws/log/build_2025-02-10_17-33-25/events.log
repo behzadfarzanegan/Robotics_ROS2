@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000327] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.000435] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.000488] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.000531] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.000563] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.000594] (-) JobUnselected: {'identifier': 'bumperbot_utils'}
+[0.000697] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict([('bumperbot_msgs', '/home/bfg2h/bumperbot_ws/install/bumperbot_msgs')])}
+[0.000723] (bumperbot_cpp_examples) JobStarted: {'identifier': 'bumperbot_cpp_examples'}
+[0.012772] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 1}
+[0.023147] (-) EventReactorShutdown: {}

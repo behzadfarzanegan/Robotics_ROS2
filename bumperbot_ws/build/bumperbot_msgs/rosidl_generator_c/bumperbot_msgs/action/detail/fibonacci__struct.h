@@ -37,13 +37,13 @@ typedef struct bumperbot_msgs__action__Fibonacci_Goal__Sequence
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'sequnece'
+// Member 'sequence'
 #include "rosidl_runtime_c/primitives_sequence.h"
 
 /// Struct defined in action/Fibonacci in the package bumperbot_msgs.
 typedef struct bumperbot_msgs__action__Fibonacci_Result
 {
-  rosidl_runtime_c__int32__Sequence sequnece;
+  rosidl_runtime_c__int32__Sequence sequence;
 } bumperbot_msgs__action__Fibonacci_Result;
 
 // Struct for a sequence of bumperbot_msgs__action__Fibonacci_Result.

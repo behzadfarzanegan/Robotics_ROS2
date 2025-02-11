@@ -481,6 +481,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesup
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
 
+//Dependencies for the target
+simple_action_server_LIB_DEPENDS:STATIC=general;bumperbot_msgs::bumperbot_msgs__rosidl_generator_c;general;bumperbot_msgs::bumperbot_msgs__rosidl_typesupport_fastrtps_c;general;bumperbot_msgs::bumperbot_msgs__rosidl_typesupport_fastrtps_cpp;general;bumperbot_msgs::bumperbot_msgs__rosidl_typesupport_introspection_c;general;bumperbot_msgs::bumperbot_msgs__rosidl_typesupport_c;general;bumperbot_msgs::bumperbot_msgs__rosidl_typesupport_introspection_cpp;general;bumperbot_msgs::bumperbot_msgs__rosidl_typesupport_cpp;general;bumperbot_msgs::bumperbot_msgs__rosidl_generator_py;general;rclcpp::rclcpp;general;rclcpp_action::rclcpp_action;general;rclcpp_components::component_manager;
+
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 

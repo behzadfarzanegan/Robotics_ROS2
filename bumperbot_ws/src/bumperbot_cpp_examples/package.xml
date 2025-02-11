@@ -21,7 +21,8 @@
   <depend>geometry_msgs</depend>
   <depend>bumperbot_msgs</depend>
   <depend>tf2</depend>
-
+  <depend>rclcpp_action</depend>
+  <depend>rclcpp_components</depend>
 
   <!-- Test Dependencies -->
   <test_depend>ament_lint_auto</test_depend>

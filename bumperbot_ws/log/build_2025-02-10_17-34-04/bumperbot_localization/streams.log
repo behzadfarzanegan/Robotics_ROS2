@@ -1,0 +1,100 @@
+[0.022s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_localization
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.124s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.255s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.275s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.447s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.547s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.594s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.600s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.609s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.686s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.689s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.755s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.783s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.833s] -- Looking for pthread.h
+[0.892s] -- Looking for pthread.h - found
+[0.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.958s] -- Found Threads: TRUE  
+[1.018s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.021s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.054s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.215s] -- Configuring done
+[1.225s] -- Generating done
+[1.228s] -- Build files have been written to: /home/bfg2h/bumperbot_ws/build/bumperbot_localization
+[1.237s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_localization
+[1.238s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[1.275s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[1.281s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[1.597s] running egg_info
+[1.597s] creating bumperbot_localization.egg-info
+[1.597s] writing bumperbot_localization.egg-info/PKG-INFO
+[1.598s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[1.598s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[1.598s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.600s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.601s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.630s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[13.001s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[13.608s] [100%] Built target kalman_filter
+[13.618s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[13.620s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_localization
+[13.627s] -- Install configuration: ""
+[13.627s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[13.627s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[13.627s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[13.627s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[13.628s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[13.628s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.628s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.628s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[13.628s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[13.628s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter_pos.py
+[13.628s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[13.629s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[13.676s] Listing '/home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[13.677s] Compiling '/home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py'...
+[13.677s] Compiling '/home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py'...
+[13.677s] Compiling '/home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py'...
+[13.677s] Compiling '/home/bfg2h/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter_pos.py'...
+[13.683s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[13.683s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[13.683s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[13.683s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[13.683s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/include/include
+[13.684s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[13.684s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[13.684s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[13.688s] -- Set runtime path of "/home/bfg2h/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter" to ""
+[13.688s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[13.688s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter_pos.py
+[13.689s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[13.689s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[13.689s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[13.689s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[13.689s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[13.689s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[13.689s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[13.689s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[13.690s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[13.690s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[13.690s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[13.690s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[13.690s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[13.690s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[13.690s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[13.691s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[13.693s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_localization

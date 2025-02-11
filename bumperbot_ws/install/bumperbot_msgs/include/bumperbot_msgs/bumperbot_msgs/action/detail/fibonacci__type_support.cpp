@@ -156,45 +156,45 @@ void Fibonacci_Result_fini_function(void * message_memory)
   typed_message->~Fibonacci_Result();
 }
 
-size_t size_function__Fibonacci_Result__sequnece(const void * untyped_member)
+size_t size_function__Fibonacci_Result__sequence(const void * untyped_member)
 {
   const auto * member = reinterpret_cast<const std::vector<int32_t> *>(untyped_member);
   return member->size();
 }
 
-const void * get_const_function__Fibonacci_Result__sequnece(const void * untyped_member, size_t index)
+const void * get_const_function__Fibonacci_Result__sequence(const void * untyped_member, size_t index)
 {
   const auto & member =
     *reinterpret_cast<const std::vector<int32_t> *>(untyped_member);
   return &member[index];
 }
 
-void * get_function__Fibonacci_Result__sequnece(void * untyped_member, size_t index)
+void * get_function__Fibonacci_Result__sequence(void * untyped_member, size_t index)
 {
   auto & member =
     *reinterpret_cast<std::vector<int32_t> *>(untyped_member);
   return &member[index];
 }
 
-void fetch_function__Fibonacci_Result__sequnece(
+void fetch_function__Fibonacci_Result__sequence(
   const void * untyped_member, size_t index, void * untyped_value)
 {
   const auto & item = *reinterpret_cast<const int32_t *>(
-    get_const_function__Fibonacci_Result__sequnece(untyped_member, index));
+    get_const_function__Fibonacci_Result__sequence(untyped_member, index));
   auto & value = *reinterpret_cast<int32_t *>(untyped_value);
   value = item;
 }
 
-void assign_function__Fibonacci_Result__sequnece(
+void assign_function__Fibonacci_Result__sequence(
   void * untyped_member, size_t index, const void * untyped_value)
 {
   auto & item = *reinterpret_cast<int32_t *>(
-    get_function__Fibonacci_Result__sequnece(untyped_member, index));
+    get_function__Fibonacci_Result__sequence(untyped_member, index));
   const auto & value = *reinterpret_cast<const int32_t *>(untyped_value);
   item = value;
 }
 
-void resize_function__Fibonacci_Result__sequnece(void * untyped_member, size_t size)
+void resize_function__Fibonacci_Result__sequence(void * untyped_member, size_t size)
 {
   auto * member =
     reinterpret_cast<std::vector<int32_t> *>(untyped_member);
@@ -203,21 +203,21 @@ void resize_function__Fibonacci_Result__sequnece(void * untyped_member, size_t s
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember Fibonacci_Result_message_member_array[1] = {
   {
-    "sequnece",  // name
+    "sequence",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     true,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(bumperbot_msgs::action::Fibonacci_Result, sequnece),  // bytes offset in struct
+    offsetof(bumperbot_msgs::action::Fibonacci_Result, sequence),  // bytes offset in struct
     nullptr,  // default value
-    size_function__Fibonacci_Result__sequnece,  // size() function pointer
-    get_const_function__Fibonacci_Result__sequnece,  // get_const(index) function pointer
-    get_function__Fibonacci_Result__sequnece,  // get(index) function pointer
-    fetch_function__Fibonacci_Result__sequnece,  // fetch(index, &value) function pointer
-    assign_function__Fibonacci_Result__sequnece,  // assign(index, value) function pointer
-    resize_function__Fibonacci_Result__sequnece  // resize(index) function pointer
+    size_function__Fibonacci_Result__sequence,  // size() function pointer
+    get_const_function__Fibonacci_Result__sequence,  // get_const(index) function pointer
+    get_function__Fibonacci_Result__sequence,  // get(index) function pointer
+    fetch_function__Fibonacci_Result__sequence,  // fetch(index, &value) function pointer
+    assign_function__Fibonacci_Result__sequence,  // assign(index, value) function pointer
+    resize_function__Fibonacci_Result__sequence  // resize(index) function pointer
   }
 };
 

@@ -1,0 +1,54 @@
+[0.015s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/bumperbot_ws/install/bumperbot_utils:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_localization:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/manipulator_ws/install/arduinobot_moveit:/home/bfg2h/manipulator_ws/install/arduinobot_controllers:/home/bfg2h/manipulator_ws/install/arduinobot_description:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target simple_action_server_node[0m
+[0.058s] [  5%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[0.059s] [ 16%] Built target simple_service_client
+[0.059s] [ 27%] Built target simple_subscriber
+[0.060s] [ 50%] Built target simple_turtlesim_kinematics
+[0.060s] [ 50%] Built target simple_service_server
+[0.062s] [ 66%] Built target simple_tf_kinematics
+[0.062s] [ 83%] Built target simple_publisher
+[0.062s] [ 83%] Built target simple_parameter
+[0.067s] [ 94%] Built target simple_action_server_node
+[2.282s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse bumperbot_cpp_example::SimpleActionServer::goalCallback(const GoalUUID&, std::shared_ptr<const bumperbot_msgs::action::Fibonacci_Goal_<std::allocator<void> > >)[m[K’:
+[2.282s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:32:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.282s]    32 |         [01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K,
+[2.282s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.288s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Kvoid bumperbot_cpp_example::SimpleActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<bumperbot_msgs::action::Fibonacci> >)[m[K’:
+[2.288s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:63:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’; did you mean ‘[01m[Ksequnece[m[K’?
+[2.288s]    63 |                 result->[01;31m[Ksequence[m[K = sequence;
+[2.288s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.289s]       |                         [32m[Ksequnece[m[K
+[2.291s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:77:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’; did you mean ‘[01m[Ksequnece[m[K’?
+[2.291s]    77 |             result->[01;31m[Ksequence[m[K = sequence;
+[2.291s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.291s]       |                     [32m[Ksequnece[m[K
+[2.292s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse bumperbot_cpp_example::SimpleActionServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<bumperbot_msgs::action::Fibonacci> >)[m[K’:
+[2.292s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:84:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoalhandle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.292s]    84 |         [01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<bumperbot_msgs::action::Fibonacci>> goalhandle[m[K)
+[2.293s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.304s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[2.304s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18[m[K,
+[2.304s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:6[m[K:
+[2.304s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:[m[K At global scope:
+[2.304s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:93:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kbumperbot_cpp_examples[m[K’ was not declared in this scope; did you mean ‘[01m[Kbumperbot_cpp_example[m[K’?
+[2.305s]    93 | RCLCPP_COMPONENTS_REGISTER_NODE([01;31m[Kbumperbot_cpp_examples[m[K::SimpleActionServer)
+[2.305s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.305s] [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:93:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.305s]    93 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(bumperbot_cpp_examples::SimpleActionServer)
+[2.305s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.800s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[2.800s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[2.800s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18[m[K,
+[2.800s]                  from [01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:6[m[K:
+[2.800s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[2.800s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[2.800s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+[2.800s]   218 |     return [01;31m[Knew C[m[K;
+[2.800s]       |            [01;31m[K^~~~~[m[K
+[2.800s]       |            [01;31m[K|[m[K
+[2.800s]       |            [01;31m[Kint*[m[K
+[2.927s] gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:76: CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o] Error 1
+[2.927s] gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_server.dir/all] Error 2
+[2.927s] gmake: *** [Makefile:146: all] Error 2
+[2.929s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/bumperbot_ws/install/bumperbot_utils:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_localization:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/manipulator_ws/install/arduinobot_moveit:/home/bfg2h/manipulator_ws/install/arduinobot_controllers:/home/bfg2h/manipulator_ws/install/arduinobot_description:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16

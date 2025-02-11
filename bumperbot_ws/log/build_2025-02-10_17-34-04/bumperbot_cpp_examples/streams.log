@@ -1,0 +1,97 @@
+[0.014s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/bumperbot_ws/install/bumperbot_utils:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_localization:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/manipulator_ws/install/arduinobot_moveit:/home/bfg2h/manipulator_ws/install/arduinobot_controllers:/home/bfg2h/manipulator_ws/install/arduinobot_description:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.523s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.580s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.588s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.607s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.703s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.707s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.799s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.846s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.893s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.910s] -- Looking for pthread.h
+[0.983s] -- Looking for pthread.h - found
+[0.984s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.057s] -- Found Threads: TRUE  
+[1.124s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.174s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.283s] -- Found bumperbot_msgs: 0.0.0 (/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[1.387s] -- Configuring done
+[1.415s] -- Generating done
+[1.427s] -- Build files have been written to: /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples
+[1.439s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/bumperbot_ws/install/bumperbot_utils:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_localization:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/manipulator_ws/install/arduinobot_moveit:/home/bfg2h/manipulator_ws/install/arduinobot_controllers:/home/bfg2h/manipulator_ws/install/arduinobot_description:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake /home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples
+[1.441s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/bumperbot_ws/install/bumperbot_utils:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_localization:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/manipulator_ws/install/arduinobot_moveit:/home/bfg2h/manipulator_ws/install/arduinobot_controllers:/home/bfg2h/manipulator_ws/install/arduinobot_description:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[1.491s] [ 14%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[1.491s] [ 14%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[1.491s] [ 28%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[1.492s] [ 28%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[1.492s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[1.492s] [ 42%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[1.493s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[5.431s] [ 57%] [32m[1mLinking CXX executable simple_service_client[0m
+[5.513s] [ 64%] [32m[1mLinking CXX executable simple_service_server[0m
+[5.715s] [ 64%] Built target simple_service_client
+[5.719s] [ 64%] Built target simple_service_server
+[6.187s] [ 71%] [32m[1mLinking CXX executable simple_parameter[0m
+[6.303s] [ 71%] Built target simple_parameter
+[7.362s] [ 78%] [32m[1mLinking CXX executable simple_publisher[0m
+[7.553s] [ 78%] Built target simple_publisher
+[7.694s] [ 85%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[7.937s] [ 85%] Built target simple_tf_kinematics
+[10.261s] [ 92%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[10.606s] [ 92%] Built target simple_turtlesim_kinematics
+[11.147s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[11.427s] [100%] Built target simple_subscriber
+[11.435s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/bumperbot_ws/install/bumperbot_utils:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_localization:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/manipulator_ws/install/arduinobot_moveit:/home/bfg2h/manipulator_ws/install/arduinobot_controllers:/home/bfg2h/manipulator_ws/install/arduinobot_description:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[11.436s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/bumperbot_ws/install/bumperbot_utils:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_localization:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/manipulator_ws/install/arduinobot_moveit:/home/bfg2h/manipulator_ws/install/arduinobot_controllers:/home/bfg2h/manipulator_ws/install/arduinobot_description:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples
+[11.441s] -- Install configuration: ""
+[11.441s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[11.441s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[11.441s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[11.441s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[11.441s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[11.442s] -- Set runtime path of "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[11.442s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[11.445s] -- Set runtime path of "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[11.445s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[11.445s] -- Set runtime path of "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[11.445s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[11.447s] -- Set runtime path of "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[11.447s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[11.449s] -- Set runtime path of "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[11.449s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[11.449s] -- Set runtime path of "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+[11.449s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[11.450s] -- Set runtime path of "/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+[11.450s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[11.450s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[11.450s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[11.450s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[11.450s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[11.451s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[11.452s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[11.453s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs:/home/bfg2h/bumperbot_ws/install/bumperbot_utils:/home/bfg2h/bumperbot_ws/install/bumperbot_cpp_examples:/home/bfg2h/bumperbot_ws/install/bumperbot_localization:/home/bfg2h/bumperbot_ws/install/bumperbot_description:/home/bfg2h/bumperbot_ws/install/bumperbot_controller:/home/bfg2h/manipulator_ws/install/arduinobot_moveit:/home/bfg2h/manipulator_ws/install/arduinobot_controllers:/home/bfg2h/manipulator_ws/install/arduinobot_description:/home/bfg2h/turtlebot3_ws/install/turtlebot3_simulations:/home/bfg2h/turtlebot3_ws/install/turtlebot3_gazebo:/home/bfg2h/turtlebot3_ws/install/turtlebot3_fake_node:/home/bfg2h/ros2_ws/install/my_cpp_pkg:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bfg2h/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_cpp_examples

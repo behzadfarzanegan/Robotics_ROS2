@@ -237,7 +237,7 @@ bumperbot_msgs__action__Fibonacci_Goal__Sequence__copy(
 
 
 // Include directives for member types
-// Member `sequnece`
+// Member `sequence`
 #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
 bool
@@ -246,8 +246,8 @@ bumperbot_msgs__action__Fibonacci_Result__init(bumperbot_msgs__action__Fibonacci
   if (!msg) {
     return false;
   }
-  // sequnece
-  if (!rosidl_runtime_c__int32__Sequence__init(&msg->sequnece, 0)) {
+  // sequence
+  if (!rosidl_runtime_c__int32__Sequence__init(&msg->sequence, 0)) {
     bumperbot_msgs__action__Fibonacci_Result__fini(msg);
     return false;
   }
@@ -260,8 +260,8 @@ bumperbot_msgs__action__Fibonacci_Result__fini(bumperbot_msgs__action__Fibonacci
   if (!msg) {
     return;
   }
-  // sequnece
-  rosidl_runtime_c__int32__Sequence__fini(&msg->sequnece);
+  // sequence
+  rosidl_runtime_c__int32__Sequence__fini(&msg->sequence);
 }
 
 bool
@@ -270,9 +270,9 @@ bumperbot_msgs__action__Fibonacci_Result__are_equal(const bumperbot_msgs__action
   if (!lhs || !rhs) {
     return false;
   }
-  // sequnece
+  // sequence
   if (!rosidl_runtime_c__int32__Sequence__are_equal(
-      &(lhs->sequnece), &(rhs->sequnece)))
+      &(lhs->sequence), &(rhs->sequence)))
   {
     return false;
   }
@@ -287,9 +287,9 @@ bumperbot_msgs__action__Fibonacci_Result__copy(
   if (!input || !output) {
     return false;
   }
-  // sequnece
+  // sequence
   if (!rosidl_runtime_c__int32__Sequence__copy(
-      &(input->sequnece), &(output->sequnece)))
+      &(input->sequence), &(output->sequence)))
   {
     return false;
   }

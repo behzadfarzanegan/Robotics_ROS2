@@ -128,7 +128,7 @@ class Fibonacci_Goal(metaclass=Metaclass_Fibonacci_Goal):
 
 # Import statements for member types
 
-# Member 'sequnece'
+# Member 'sequence'
 import array  # noqa: E402, I100
 
 # already imported above
@@ -183,11 +183,11 @@ class Fibonacci_Result(metaclass=Metaclass_Fibonacci_Result):
     """Message class 'Fibonacci_Result'."""
 
     __slots__ = [
-        '_sequnece',
+        '_sequence',
     ]
 
     _fields_and_field_types = {
-        'sequnece': 'sequence<int32>',
+        'sequence': 'sequence<int32>',
     }
 
     SLOT_TYPES = (
@@ -198,7 +198,7 @@ class Fibonacci_Result(metaclass=Metaclass_Fibonacci_Result):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.sequnece = array.array('i', kwargs.get('sequnece', []))
+        self.sequence = array.array('i', kwargs.get('sequence', []))
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -229,7 +229,7 @@ class Fibonacci_Result(metaclass=Metaclass_Fibonacci_Result):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.sequnece != other.sequnece:
+        if self.sequence != other.sequence:
             return False
         return True
 
@@ -239,16 +239,16 @@ class Fibonacci_Result(metaclass=Metaclass_Fibonacci_Result):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def sequnece(self):
-        """Message field 'sequnece'."""
-        return self._sequnece
+    def sequence(self):
+        """Message field 'sequence'."""
+        return self._sequence
 
-    @sequnece.setter
-    def sequnece(self, value):
+    @sequence.setter
+    def sequence(self, value):
         if isinstance(value, array.array):
             assert value.typecode == 'i', \
-                "The 'sequnece' array.array() must have the type code of 'i'"
-            self._sequnece = value
+                "The 'sequence' array.array() must have the type code of 'i'"
+            self._sequence = value
             return
         if __debug__:
             from collections.abc import Sequence
@@ -263,8 +263,8 @@ class Fibonacci_Result(metaclass=Metaclass_Fibonacci_Result):
                  not isinstance(value, UserString) and
                  all(isinstance(v, int) for v in value) and
                  all(val >= -2147483648 and val < 2147483648 for val in value)), \
-                "The 'sequnece' field must be a set or sequence and each value of type 'int' and each integer in [-2147483648, 2147483647]"
-        self._sequnece = array.array('i', value)
+                "The 'sequence' field must be a set or sequence and each value of type 'int' and each integer in [-2147483648, 2147483647]"
+        self._sequence = array.array('i', value)
 
 
 # Import statements for member types

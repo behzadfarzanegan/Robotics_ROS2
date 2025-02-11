@@ -1,0 +1,20 @@
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse bumperbot_cpp_example::SimpleActionServer::goalCallback(const GoalUUID&, std::shared_ptr<const bumperbot_msgs::action::Fibonacci_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:32:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 |         [01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Kvoid bumperbot_cpp_example::SimpleActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<bumperbot_msgs::action::Fibonacci> >)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:63:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’; did you mean ‘[01m[Ksequnece[m[K’?
+   63 |                 result->[01;31m[Ksequence[m[K = sequence;
+      |                         [01;31m[K^~~~~~~~[m[K
+      |                         [32m[Ksequnece[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:77:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct bumperbot_msgs::action::Fibonacci_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’; did you mean ‘[01m[Ksequnece[m[K’?
+   77 |             result->[01;31m[Ksequence[m[K = sequence;
+      |                     [01;31m[K^~~~~~~~[m[K
+      |                     [32m[Ksequnece[m[K
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse bumperbot_cpp_example::SimpleActionServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<bumperbot_msgs::action::Fibonacci> >)[m[K’:
+[01m[K/home/bfg2h/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_server.cpp:84:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoalhandle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   84 |         [01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<bumperbot_msgs::action::Fibonacci>> goalhandle[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:76: CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/simple_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

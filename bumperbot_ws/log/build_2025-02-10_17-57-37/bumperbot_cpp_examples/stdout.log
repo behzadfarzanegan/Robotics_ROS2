@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
+[ 44%] Built target simple_turtlesim_kinematics
+[ 44%] Built target simple_parameter
+[ 55%] Built target simple_action_server_node
+[ 55%] Built target simple_subscriber
+[ 55%] Built target simple_tf_kinematics
+[ 66%] Built target simple_publisher
+[ 77%] Built target simple_service_client
+[ 88%] Built target simple_service_server
+[ 94%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
