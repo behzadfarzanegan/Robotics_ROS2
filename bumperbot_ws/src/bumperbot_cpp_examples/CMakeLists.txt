@@ -55,7 +55,6 @@ target_include_directories(simple_service_client PUBLIC include)
 ament_target_dependencies(simple_service_client rclcpp bumperbot_msgs)
 
 add_executable(simple_action_server src/simple_action_server.cpp)
-target_include_directories(simple_action_server PUBLIC include)
 ament_target_dependencies(simple_action_server rclcpp bumperbot_msgs rclcpp_action rclcpp_components)
 
 
