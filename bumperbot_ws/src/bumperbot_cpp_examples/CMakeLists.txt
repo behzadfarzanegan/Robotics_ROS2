@@ -57,6 +57,10 @@ ament_target_dependencies(simple_service_client rclcpp bumperbot_msgs)
 add_executable(simple_action_server src/simple_action_server.cpp)
 ament_target_dependencies(simple_action_server rclcpp bumperbot_msgs rclcpp_action rclcpp_components)
 
+add_executable(simple_action_client src/simple_action_client.cpp)
+ament_target_dependencies(simple_action_client rclcpp bumperbot_msgs rclcpp_action rclcpp_components)
+
+
 
 
 install(
@@ -73,6 +77,7 @@ install(TARGETS
   simple_service_server
   simple_service_client
   simple_action_server
+  simple_action_client
 
   DESTINATION lib/${PROJECT_NAME}
 )
