@@ -58,7 +58,7 @@ private:
     }
 
     void feedbackCallback(
-        rclcpp_action::ClientGoalHandle<bumperbot_msgs::action::Fibonacci>::SharedPtr goal_handle,
+        rclcpp_action::ClientGoalHandle<bumperbot_msgs::action::Fibonacci>::SharedPtr ,
         const std::shared_ptr<const bumperbot_msgs::action::Fibonacci::Feedback> feedback)
     {
         std::stringstream ss;

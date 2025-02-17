@@ -65,12 +65,35 @@ def generate_launch_description():
     )
 
     # Spawn the robot in Gazebo
-    spawn_robot = Node(package="gazebo_ros", executable="spawn_entity.py",
-                        arguments=["-entity", "bumperbot",
-                                   "-topic", "robot_description",
-                                  ],
-                        output="screen"
+    # spawn_robot = Node(package="gazebo_ros", executable="spawn_entity.py",
+    #                     arguments=["-entity", "bumperbot",
+    #                                "-topic", "robot_description",
+    #                               ],
+    #                     output="screen"
+    # )
+
+    # Define spawn position (change these values to set a different spawn point)
+    spawn_x = "0.0"   # X coordinate
+    spawn_y = "1.0"   # Y coordinate
+    spawn_z = "0.0"   # Z coordinate (keep it 0 for ground placement)
+    spawn_yaw = "1.57"  # Yaw angle in radians (1.57 rad = 90 degrees)
+
+    # Spawn the robot in Gazebo at a specific position
+    spawn_robot = Node(
+        package="gazebo_ros",
+        executable="spawn_entity.py",
+        arguments=[
+            "-entity", "bumperbot",
+            "-topic", "robot_description",
+            "-x", spawn_x,
+            "-y", spawn_y,
+            "-z", spawn_z,
+            "-Y", spawn_yaw  # Capital "-Y" for yaw (rotation)
+        ],
+        output="screen"
     )
+
+
 
     # Set up ROS 2 bridge for communication with Gazebo
     gz_ros2_bridge = Node(

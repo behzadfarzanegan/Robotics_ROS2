@@ -29,10 +29,21 @@ class SimpleController(Node):
         self.circle_radius_ = self.get_parameter("circle_radius").get_parameter_value().double_value
         self.angular_velocity_ = self.get_parameter("angular_velocity").get_parameter_value().double_value
 
-        self.kp_ = 0.05  # Proportional gain for position
-        self.kd_ = 0.001  # Derivative gain for position
-        self.kp_angle_ = 0.5  # Proportional gain for angle
-        self.kd_angle_ = 0.001  # Derivative gain for angle
+        self.k1 = 1.98  # Proportional gain for position
+        self.k2 = 1.98  # Derivative gain for position
+        self.k3 = 1.98  # Proportional gain for angle
+
+        self.x_desired = 0.998
+        self.y_desired = -1.47
+        self.psi_desired = 0
+
+        self.V_desired = 0.84
+        self.V_desired_prev = 0.84
+        self.dotpsi_desired = 0
+
+        self.xe = 1.26
+        self.ye = -1.47
+        self.psie = 0.2
 
 
         self.get_logger().info("Using wheel radius %f" % self.wheel_radius_)
@@ -42,7 +53,7 @@ class SimpleController(Node):
         self.right_wheel_prev_pos_ = 0
         self.prev_time_ = self.get_clock().now()
 
-        self.x_ = 0.0
+        self.x_ = -0.128 # 0.0
         self.y_ = 0.0
         self.theta_ = 0
 
@@ -59,6 +70,7 @@ class SimpleController(Node):
         self.noisy_odom_sub_ = self.create_subscription(Odometry, "bumperbot_controller/odom_noisy", self.velCallback, 10)
         # self.joint_sub2_ = self.create_subscription(JointState, "joint_states", self.velCallback, 10)
 
+        self.t_prev = 0
         self.t0 = self.get_clock().now().nanoseconds / 1e9
         self.odom_msgs_ = Odometry()
         self.odom_msgs_.header.frame_id = "odom"
@@ -77,62 +89,69 @@ class SimpleController(Node):
                                            [self.wheel_radius_/self.wheel_separation_, -self.wheel_radius_/self.wheel_separation_]])
         self.get_logger().info("The conversion matrix is %s" % self.speed_conversion_)
     
-    def update_position_error(self, t):
+    def update_reference(self, t):
         # Compute the desired position on the circle at time t
-        x_desired = self.circle_radius_ * math.cos(self.angular_velocity_ * t)
-        y_desired = self.circle_radius_ * math.sin(self.angular_velocity_ * t)
-        x_desired = self.circle_radius_ 
-        y_desired = 0
-        self.get_logger().info("the robot position at time %f is (%f,%f)" %(t,x_desired,y_desired))
+        self.x_desired = 1.5 * math.sin(0.4* t + 0.2) +0.7
+        self.y_desired = 1.5 * (1- math.cos(0.4* t+0.2))-1.5
+        self.dotx_desired = 1.5 * 0.4*math.cos(0.4* t + 0.2)
+        self.doty_desired = 1.5 * 0.4*math.sin(0.4* t + 0.2)
+        self.dot2x_desired = -1.5 *0.4* 0.4*math.sin(0.4* t + 0.2)
+        self.dot2y_desired = 1.5 * 0.4*0.4*math.cos(0.4* t + 0.2) 
 
-        
-        # Compute the position error (distance from the robot's current position to the desired position on the circle)
-        position_error = (self.x_ - x_desired)*math.cos(self.theta_) + (self.y_ - y_desired)*math.sin(self.theta_)
-        
-        return position_error
+        self.V_desired_prev = self.V_desired
+        self.V_desired = math.sqrt(self.dotx_desired**2 + self.doty_desired**2)
+        self.psi_desired = math.atan2(self.doty_desired, self.dotx_desired)
+        self.dotpsi_desired = (self.dot2y_desired*self.dotx_desired - self.dot2x_desired*self.doty_desired) /(self.V_desired**2)
+        self.tildey = self.ye +self.k2/self.V_desired*math.sin(self.psie)
     
     def update_angle_error(self, t):
-        # Desired angle on the circle at time t
-        theta_d = self.angular_velocity_ * t  # Desired orientation (angle) as a function of time
-        theta_d = math.atan2(math.cos(self.angular_velocity_ * t),-math.sin(self.angular_velocity_ * t))
-        theta_d = math.pi/2
 
         # Calculate the angle error (difference between desired and current robot orientation)
-        angle_error = theta_d - self.theta_
-        self.get_logger().info("the robot orientation at time %f is %f" %(t,theta_d))
+        self.psie = self.psi_desired - self.theta_
+        self.xe = math.cos(self.theta_)*(self.x_desired - self.x_) + math.sin(self.theta_)*(self.y_desired - self.y_)
+        self.ye = -math.sin(self.theta_)*(self.x_desired - self.x_) + math.cos(self.theta_)*(self.y_desired - self.y_)
 
-        # Normalize the angle error to the range [-pi, pi] to avoid large angle jumps
-        angle_error = (angle_error + math.pi) % (2 * math.pi) - math.pi
-        
-        return angle_error
+
 
 
     def velCallback(self, msg):
-
         t1 = self.get_clock().now().nanoseconds / 1e9
-        t= t1-self.t0
+        t = t1 - self.t0
+        delta_t = t - self.t_prev
+        self.t_prev = t
+        delta_t = max(delta_t, 1e-5)  # Prevent division by zero
 
-        # Calculate the current position and angle errors
-        position_error = self.update_position_error(t)
-        angle_error = self.update_angle_error(t)
-
-        # Proportional-Derivative control for linear velocity (v)
-        v_control = self.kp_ * position_error + self.kd_ * (position_error - self.prev_error_)
-
-        # Proportional-Derivative control for angular velocity (w)
-        w_control = self.kp_angle_ * angle_error + self.kd_angle_ * (angle_error - self.prev_angle_error_)
-
-                # Update previous errors for the next iteration
-        self.prev_error_ = position_error
-        self.prev_angle_error_ = angle_error
+        # Update reference trajectory and errors
+        self.update_reference(t)
+        self.update_angle_error(t)
+        self.dotV_desired = (self.V_desired - self.V_desired_prev) / delta_t
+        # self.dotV_desired =0
 
 
-        # Implements the differential kinematic model
-        # Convert control velocities to wheel speeds using inverse kinematics
+        # Constraint limits
+        um1 = 10.5  # Max speed
+        um2 = 3.5  # Max angular velocity
+
+        # Ensure no division by zero
+        eps = 1e-5
+        self.tildey = self.ye + self.k2 / max(self.V_desired, eps) * math.sin(self.psie)
+
+        # Control law (corrected)
+        v_control = self.V_desired * math.cos(self.psie) + self.k1 * self.xe
+        w_control = (self.k3 * self.tildey + 2 * self.V_desired * math.sin(self.psie) + 
+                    self.k2 / max(self.V_desired, eps) * math.cos(self.psie) * self.dotpsi_desired - 
+                    self.k2 / max(self.V_desired**2, eps) * math.sin(self.psie) * self.dotV_desired) / \
+                    (self.xe + self.k2 / max(self.V_desired, eps) * math.cos(self.psie))
+
+        # Apply constraints
+        v_control = np.clip(v_control, -um1, um1)
+        w_control = np.clip(w_control, -um2, um2)
+
+        # Convert to wheel speeds
         robot_speed = np.array([[v_control], [w_control]])
         wheel_speed = np.matmul(np.linalg.inv(self.speed_conversion_), robot_speed)
 
-        # Publish the wheel speed commands
+        # Publish wheel speed
         wheel_speed_msg = Float64MultiArray()
         wheel_speed_msg.data = [wheel_speed[1, 0], wheel_speed[0, 0]]
         self.wheel_cmd_pub_.publish(wheel_speed_msg)

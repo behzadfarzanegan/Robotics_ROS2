@@ -1,0 +1,68 @@
+[0.047s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.167s] [ 50%] Built target noisy_controller
+[0.181s] [100%] Built target simple_controller
+[0.182s] [100%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.907s] running egg_info
+[0.908s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.908s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.908s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.911s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.914s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.008s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.033s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/bfg2h/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[1.036s] Invoking command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_controller
+[1.051s] -- Install configuration: ""
+[1.052s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[1.052s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[1.052s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[1.052s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.053s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.053s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.053s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.053s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[1.053s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[1.053s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller2.py
+[1.054s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[1.054s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/main_simplecontroller.py
+[1.054s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/PD_controller.py
+[1.054s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[1.158s] Listing '/home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[1.158s] Compiling '/home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[1.159s] ***   File "/home/bfg2h/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py", line 141
+[1.159s]     self.k2 / self.V_desired**2 * math.sin(self.psie) * self.dotV_desired) / 
+[1.159s]                                                                              ^
+[1.159s] SyntaxError: invalid syntax
+[1.159s] 
+[1.177s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/include/include
+[1.178s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[1.178s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[1.178s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[1.178s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[1.178s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[1.179s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[1.179s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch2.py
+[1.179s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[1.179s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[1.179s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[1.179s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.179s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[1.179s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[1.180s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[1.180s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller2.py
+[1.180s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[1.180s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.180s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.180s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.180s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.181s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.181s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.181s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.181s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.181s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.181s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.181s] -- Installing: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.181s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.182s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.182s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.182s] -- Up-to-date: /home/bfg2h/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.185s] Invoked command in '/home/bfg2h/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfg2h/bumperbot_ws/install/bumperbot_py_examples:/home/bfg2h/ros2_ws/install/my_py_pkg:/home/bfg2h/udemy_ws/install/self_driving_car_pkg:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/bfg2h/bumperbot_ws/build/bumperbot_controller
